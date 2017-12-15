@@ -1,0 +1,212 @@
+#3300
+Entrance to the Fields of the Dead~
+   You stand at the begining of the Fields of the Dead, burial grounds for
+Kortaal, and the srounding countryside. It continues further north and west. To
+the south, a road leads into Kortaal and west to the Storm Horns.
+   There is a small sign here.
+~
+33 p 0 0 0 1
+D0
+You see graves.
+~
+~
+0 -1 3303
+D2
+You see a road.
+~
+gate south s~
+1 -1 3502
+D3
+You see graves.
+~
+~
+0 -1 3301
+E
+sign~
+The sign reads: Newbie Area!
+~
+S
+#3301
+Southwest corner of the Fields of the Dead~
+   You stand in the southwest corner of the Fields. To the north, and east
+the Fields continue. Here there are rows and rows of graves, many of them
+hundreds of years old.
+~
+33 p 0 0 0 1
+D0
+More graves.
+~
+~
+0 -1 3302
+D1
+The Enterance to the Fields.
+~
+~
+0 -1 3300
+E
+grave graves~
+There is nothing particually special about any of the tombstones. 
+~
+S
+#3302
+Western end of the Fields of the Dead~
+   Now, you are very near the center of this graveyard. Headstones and burial
+markers stretch as far as you can see. There is one grave there that looks
+like it was recently dug up.
+~
+33 p 0 0 0 1
+D0
+Northwest corner.
+~
+~
+0 -1 3304
+D1
+Eastern end.
+~
+~
+0 -1 3303
+D2
+Southwestern corner.
+~
+~
+0 -1 3301
+E
+grave~
+There is a small headstone at one end of this open grave.
+~
+E
+headstone~
+The headstone reads: Here lies the Assassin of Rhigaerd the Second, Zizazat
+Lazuras. May he burn in hell!
+~
+S
+#3303
+Eastern end of the Fields of the Dead~
+  All around you, as far as you can see are burial markers and headstones. The
+whole place has a evil, twisted feel to it. A few twisted and gnarled trees
+grow here.
+~
+33 p 0 0 0 1
+D0
+The northeastern corner.
+~
+~
+0 -1 3305
+D2
+The enterance.
+~
+~
+0 -1 3300
+D3
+The western end.
+~
+~
+0 -1 3302
+S
+#3304
+Northwestern corner of the Fields of the Dead~
+   You can see one large crypt to the north, otherwise it looks much like
+the rest of the graveyard here.
+~
+33 p 0 0 0 1
+D0
+Into a crypt.
+~
+door north n~
+1 3300 3306
+D1
+The northeastern end.
+~
+~
+0 -1 3305
+D2
+The western end.
+~
+~
+0 -1 3302
+E
+crypt~
+A large marble building, with a large, heavy looking door. Enscribe into one
+of the marble blocks is the name 'Cormaeril.'
+~
+S
+#3305
+Northeastern end of the Fields of the Dead~
+   This is the northeastern end of the graveyard. An old, decrepid looking 
+house lies to the east.
+~
+33 p 0 0 0 1
+D1
+An old house.
+~
+door east e~
+1 -1 3308
+D2
+The eastern end.
+~
+~
+0 -1 3303
+D3
+The northwestern end.
+~
+~
+0 -1 3304
+S
+#3306
+Inside the Cormaeril Crypt~
+   A very strange feeling overtakes you as you stand inside the crypt of one
+of the founding familes of the Empire. It is much cooler inside than it was
+outside, there are many finely carved statues here. At the northern end is
+a small staircase leading downward into darkness.
+~
+33 dp 0 0 0 1
+D2
+Out of the crypt.
+~
+door south s~
+1 3300 3304
+D5
+Down into the crypt.
+~
+~
+0 -1 3307
+E
+statue statues~
+They are statues of the family members of the Cormaeril family. You'd guess
+they are buried here.
+~
+S
+#3307
+Chamber of the Dead~
+   There are several caskets here, in the bottem of the crypt. It is very cold
+and damp here. Moss and mold grows on the walls, and it doesn't smell very
+pleasent. Set into the northern wall is a stairway winding upward.
+~
+33 dp 0 0 0 1
+D4
+Back to the enterance.
+~
+~
+0 -1 3306
+D5
+~
+trapdoor down d~
+1 3099 4337
+E
+casket caskets~
+Several well perserved caskets and coffins are stacked here neatly.
+~
+S
+#3308
+The Caretaker's House~
+   You are standing in the small, run down house of the Fields' caretaker. It
+is a quaint home, for it's disrepair.
+~
+33 dp 0 0 0 1
+D3
+The Fields of the Dead.
+~
+door west w~
+1 -1 3305
+S
+$~

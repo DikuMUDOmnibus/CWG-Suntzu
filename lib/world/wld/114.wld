@@ -1,0 +1,175 @@
+#11401
+Outskirts of Kaon~
+   You stand on the outskirts of Kaon, perched on the western edge of
+the Wyvernwater. On this end of town you can see several large manors 
+belonging to, you'd guess, minor nobility. To the west is a shop of some
+sort with a large 'Open' sign in the window.
+~
+114 0 0 0 0 2
+D0
+You see the center of town.
+~
+~
+0 -1 11403
+D2
+You see a wooded road.
+~
+~
+0 -1 3127
+D3
+~
+door west w~
+1 -1 11402
+S
+#11402
+General Store~
+   This is a quaint little store in Kaon. The owner seems to have quite
+abit of various stuff laying about.
+~
+114 d 0 0 0 0
+D1
+The outskirts of town.
+~
+door east e~
+1 -1 11401
+S
+#11403
+Center of Town~
+   All around you can see many small building and to the east, boats and
+the Wyvernwater. The road continues north and also branches west through
+the western part of the city, and eventually into the dark forest. There is
+a large stone statue here, which looks as if it has endured well over the
+years.
+~
+114 0 0 0 0 2
+D0
+The northern edge of Kaon.
+~
+~
+0 -1 11411
+D1
+You see the Wyvernwater.
+~
+~
+0 -1 11404
+D2
+You see the southern outskirts of Kaon.
+~
+~
+0 -1 11401
+D3
+Throught the residental section of Kaon.
+~
+~
+0 -1 11409
+E
+statue~
+The statue depicts King Chelnar the III, who died nearly one hundred years ago,
+with a long sword raised aloft on the back of a rearing stallion. There
+is a small inscription at the base.
+~
+E
+inscription base~
+The inscription reads: 'Chelnar Triumphant'
+~
+S
+#11404
+The edge of the Wyvernwater~
+   To the east you can see the rather chilly looking water of Wyvernwater
+lake. Much of Kaon's livelyhood comes from fishing these waters. To
+the south you can see a large manor.
+~
+114 0 0 0 0 2
+D2
+A large manor.
+~
+~
+0 -1 1607
+D3
+The town center.
+~
+~
+0 -1 11403
+S
+#11409
+The western end of Kaon~
+   After passing throught most of the residental section of Kaon, you now
+stand on the western end. Here you see many fields which supply food to the
+troops involved with the Nelven war, and Shaarian occupation. On the 
+otherside of the fields lies more of the dark forest. To the south is
+Redstone Manor, which is locked up and looks abandoned.
+~
+114 0 0 0 0 2
+D1
+The center of town.
+~
+~
+0 -1 11403
+D2
+~
+door south s~
+1 2527 11410
+D3
+The dark forest.
+~
+~
+0 -1 3513
+E
+manor wyvernspur redstone~
+The rather large, ancestorial, home of the Wyvernspur family.
+Called Redstone for it's color of unique stone used to build it.
+It is close for renovations.
+~
+S
+#11410
+Redstone~
+   You stand in the fire scorched ruins of Wyvernspur Manor. You can see a 
+spiral staircase decending into the darkness.
+~
+114 d 0 0 0 0
+D0
+The western edge of town.
+~
+door north n~
+1 2527 11409
+D5
+~
+~
+0 -1 2501
+S
+#11411
+Northern outskirts of Kaon~
+   You are almost out of the small town of Kaon, to the north begin more
+farmlands, which are pretty uninterstng. There is one large building to the
+west however.
+~
+114 0 0 0 0 2
+D0
+Farm lands.
+~
+~
+0 -1 3138
+D2
+The center of town.
+~
+~
+0 -1 11403
+D3
+A fair sized Inn, the Five Fine Fish.
+~
+~
+0 -1 11412
+S
+#11412
+Five Fine Fish~
+   A fair sized Inn, you can smell the delicous aroma of fish being cooked
+in large numbers. Also, the smell of the house's special ale is quite strong.
+~
+114 cd 0 0 0 0
+D1
+The north edge of town.
+~
+~
+0 -1 11411
+S
+$~

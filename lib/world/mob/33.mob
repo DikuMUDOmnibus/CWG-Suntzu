@@ -1,0 +1,78 @@
+#3300
+animated skeleton undead~
+a Skeleton~
+An animated skeleton is here, mocking life.
+~
+A full, human skeleton dress in ragged remains of clothing. You wonder what
+sort of magic could bring the dead back to life in such a twisted manner.
+~
+cd 0 0 0 r 0 0 0 -1000 E
+1 20 8 1d10+1 1d3+0
+0 126 0 3
+8 8 1
+E
+#3301
+decayed corpse zombie undead~
+a Zombie~
+A slightly decayed corpse is here, moving about!
+~
+What's left of some poor beggar, slightly decayed and stinking the whole
+place up! This zombie is a perversion of all that is Good.
+~
+cd 0 0 0 r 0 0 0 -1000 E
+2 20 9 2d10+2 1d4+0
+0 234 0 3
+8 8 1
+E
+#3302
+someone mourning crying mourner~
+a Mourner~
+Someone mourning the loss of a loved one stands here, crying over a grave.
+~
+A citizen of the Empire, wracked with the loss of a dear loved one. Dressed
+in black, except for a purple sash, he could be almost anyone.
+~
+cd 0 0 0 0 0 0 0 1000 E
+1 20 8 1d10+2 1d3+0
+5 126 0 3
+8 8 1
+E
+#3303
+green skinned corpse ghoul undead~
+a Ghoul~
+A green skinned corpse moves about here, looking for a meal.
+~
+A well preserved corpse, save for the green skin and decayed clothing, the
+Ghoul is very hungry...searching for the flesh of the living!
+~
+cd 0 0 0 r 0 0 0 -1000 E
+2 20 8 2d10+4 1d4+0
+0 234 0 3
+8 8 1
+E
+#3304
+young man runes tsalari mage necromancer~
+a young Tsalari mage~
+A young man, covered in runes is poking around here.
+~
+Dressed in black, rune covered, robes, this young man is Tsalari! Vile and
+evil, he follows Marduk and perverts all that is Good.
+~
+acdl 0 0 0 0 0 0 0 -1000 E
+5 20 7 5d10+10 1d4+0
+10 2340 0 0
+8 8 1
+E
+#3305
+man caretaker~
+the caretaker~
+The caretaker of the graveyard is here, sleeping.
+~
+A old man, with a balding head. His skin is wrinkeled and worn. 
+~
+d 0 0 0 0 0 0 0 1000 E
+2 20 8 2d10+4 1d3+0
+0 234 0 3
+4 4 1
+E
+$

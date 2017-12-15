@@ -1,0 +1,34 @@
+Dynamic Boards v2.4 			Patrick Dughi (4/23/04)
+
+	This dynamic boards patch will allow you to create and
+manipulate boards from the Oasis Oedit interface.  This is both
+an update to the previous versions, and a little bit of rewrite
+due to messy code.
+
+Features:
+
+	- Ability to create boards 'on the fly' via OLC
+	- Named boards (aka, 'read notebook' will work)
+	- Remembers which player read which message, and
+          marks them.
+        - added new player preference 'vieworder' which lets
+          seriously messed up people sort the messages in an
+          oldest-first fashion.  I mean, if you're really 
+          a freak.
+        - fixed any known problems in previous versions of
+          the code (especially crash bugs).
+
+Requirements:
+
+	CircleMUD 3.1
+	Oasis OLC 2.0.6 (for CircleMUD 3.1)
+
+	Feel free to mail any questions, comments, or bug
+reports to dughi@imaxx.net.
+
+-PjD
+
+
+
+
+

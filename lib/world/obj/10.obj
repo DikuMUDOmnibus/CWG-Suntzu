@@ -1,0 +1,90 @@
+#1001
+map~
+a map~
+A map, slightly curled with age has been left here.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16
+1 1 10 0
+E
+map~
+The map reads:
+                   Center       Edge
+                     of   --   of the
+                    Town     WyvernWater
+                     |            |
+                     |          Before
+                     |           the
+                     |          Manor
+                     |            X
+                     |           High
+                     |          Towers -- A library
+                     |
+                     |
+                     |
+              Kortaal, 15 miles
+
+X - Locked Door
+~
+#1002
+map~
+a map~
+A map, slightly curled with age has been left here.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16
+1 1 10 0
+E
+map~
+The map reads:
+
+Temple 
+  of  X    Dead --- Junction
+Marduk     End          |
+                        |
+                      Cave
+                        |
+                      Goblin --- Branch
+                       Lair      Tunnel
+                                    |
+                                   Old
+                                   Cave
+                                     X
+                                   Rocky
+                                   Alcove
+                                     |
+                                   Triple
+ Sewer    --- Sewer --- Long ---  Junction
+Enterance   Junction   Passage
+
+X - Locked Door
+~
+#1003
+map~
+a map~
+A map, slightly curled with age has been left here.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 16
+1 1 10 0
+E
+map~
+The map reads:
+
+ Guild      Enterance
+   of   ---     to
+Rangers       Forest
+                 |
+               Great
+          Field of Kortaal
+                 |
+                The       Wall     Wall
+             HornGate --- Road --- Road
+                                     |
+                                 Promenade
+                                     |
+                                 Fountain
+                                  Square
+
+~
+$~

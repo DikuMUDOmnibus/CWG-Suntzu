@@ -1,0 +1,81 @@
+#11000
+blue jar~
+a blue jar containing a curing drink~
+A blue jar is here.~
+~
+10 g 0 0 0 ao 0 0 0 0 0 0 0
+25 16 22 -1 100 100 0 0
+1 100 10 0
+#11001
+red flask~
+a red flask containing a poison removing spell~
+A red flask is here.~
+~
+10 g 0 0 0 ao 0 0 0 0 0 0 0
+25 43 22 -1 100 100 0 0
+1 2500 250 0
+#11002
+green flask~
+a green flask containing a sight restoring drink~
+A green flask is here.~
+~
+10 g 0 0 0 ao 0 0 0 0 0 0 0
+25 14 22 -1 100 100 0 0
+1 500 50 0
+#11003
+clear flask~
+a clear flask containing a holy water~
+A clear flask is here.~
+~
+10 g 0 0 0 ao 0 0 0 0 0 0 0
+25 35 22 3 100 100 0 0
+1 500 50 0
+#11004
+trousers~
+a pair of black trousers~
+A pair of black trousers are here.~
+~
+11 0 0 0 0 af 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0
+1 3 0 0
+#11005
+shirt~
+a black shirt~
+A black shirt is here.~
+~
+11 0 0 0 0 ado 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 0
+1 3 0 0
+#11006
+robe plain ao~
+a black robe of Ao~
+A black robe of Ao is here.~
+~
+9 t 0 0 0 ak 0 0 0 0 0 0 0
+10 0 0 0 100 100 0 0
+1 20 20 0
+E
+robe ao black~
+The robe is a very dark shade of black. Tiny white spots dot the robe 
+everywhere.
+~
+A
+24 -2
+#11007
+robe jeweled good ao~
+a jeweled robe of Ao~
+A black jeweled robe of Ao is here.~
+~
+9 t 0 0 0 ak 0 0 0 0 0 0 0
+20 0 0 0 100 100 0 0
+1 0 100 0
+E
+robe ao jeweled~
+The robe is a very dark shade of black. Tiny jewels cover the robe and 
+shimmer in the light.
+~
+A
+17 -10
+A
+24 -5
+$~

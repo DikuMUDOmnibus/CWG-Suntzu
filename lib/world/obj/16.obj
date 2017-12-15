@@ -1,0 +1,33 @@
+#1600
+iron ingot~
+an iron ingot~
+An iron ingot ready for the forge lies here.~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 5
+3 0 0 0
+#1601
+steel ingot~
+a steel ingot~
+A steel ingot is here, ready to be forged into something!~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 9
+3 0 0 0
+#1602
+dagger~
+an iron dagger~
+An iron dagger, freshly forged lies here.~
+~
+5 0 0 0 0 a 0 0 0 0 0 0 0
+170 1 4 11 100 100 0 5
+0 0 0 0
+#1603
+test~
+a test assembly~
+A test assemly object is here~
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0
+$~

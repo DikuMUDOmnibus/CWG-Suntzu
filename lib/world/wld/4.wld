@@ -1,0 +1,268 @@
+#400
+A dark tunnel~
+    The tunnel here runs into the \c03hill\c00 to the west. It is \c06cool\c00 here, 
+and damp. A small oil soaked rag \c01burns\c00 in a holder on the east wall. 
+~
+4 d 0 0 0 0
+D1
+The wall of the cave is \c09irregular\c00, and natural. 
+~
+hole east e~
+1 400 6022
+D3
+The tunnel continues west into the \c11darkness\c00.
+~
+~
+0 -1 401
+E
+wall hole~
+There is a small hole in the floor before the wall.
+~
+S
+#401
+A dark tunnel~
+    The tunnel widens here slightly, and continues west into \c11darkness\c00 and
+east toward a \c10torch-lit\c00 area. There is an \c02alcove\c00 set in the north wall.
+~
+4 ad 0 0 0 0
+D1
+A \c10torch-lit\c00 area.
+~
+~
+0 -1 400
+D3
+A darkened area.
+~
+~
+0 -1 402
+E
+statuette~
+The statuette depicts a small, odd \c03demon\c00. It appears to be mostly \c08claws\c00
+and \c08teeth\c00. You would not like to meet this thing in the dark!
+~
+E
+north wall alcove~
+A small, \c024\c00' by \c022\c00', alcove has been carved into the northern wall. 
+It is filled by a \c05statuette\c00.
+~
+S
+#402
+End of the tunnel~
+    The tunnel comes to an end along the western wall, but there is a \c04doorway\c00 
+with a large, black door set into it. 
+~
+4 ad 0 0 0 0
+D1
+A darkened area.
+~
+~
+0 -1 401
+D3
+You almost miss the door in the blackness of the room.
+~
+door west w black large~
+1 400 403
+E
+door black large~
+The door looks like a \c11recent\c00 addition to the cave, here perhaps five years. 
+It is \c01massive\c00, and the hinges are on the wrong side of you.
+~
+S
+#403
+Natural crossroads~
+    This whole area must be part of an underground cavern, the walls are 
+smooth and the ceiling is seven feet high. There is a \c10lit\c00 chandeler 
+hanging just above your head. Ahead to the west you can see some sort of 
+chamber, \c10lit\c00 with candles. Also torch light comes from the north and south. 
+~
+4 d 0 0 0 0
+D0
+You see a natural tunnel.
+~
+~
+0 -1 404
+D1
+~
+door black large east e~
+1 401 402
+D2
+You see a natural tunnel. 
+~
+~
+0 -1 407
+D3
+There is a candle lit chamber in the distance.
+~
+~
+0 -1 409
+S
+#404
+A natural cavern~
+    This is a small natual cavern. A simple \c03wooden\c00 door is set in 
+the east wall. A slightly more ornate \c06iron\c00 bound door lies to the west. 
+~
+4 d 0 0 0 0
+D1
+There is a wooden door in the wall here.
+~
+wooden door east e~
+1 -1 405
+D2
+The tunnel leads south to the natural crossroads.
+~
+~
+0 -1 403
+D3
+There is a large ornate door here.
+~
+ornate iron west w~
+1 -1 406
+S
+#405
+A simple bed chamber~
+    This small cave seems to be a dormitory for several people. The north 
+and south walls are lined with several beds each. The eastern wall bears 
+three night stands complete with wash basins.
+~
+4 d 0 0 0 0
+D3
+There is a wooden door in the wall here.
+~
+wooden door west w~
+1 -1 404
+S
+#406
+A simple bed chamber~
+    This small cave seems to be a dormitory for several people. The north 
+and south walls are lined with several beds each. The western wall bears 
+three night stands complete with wash basins.
+~
+4 d 0 0 0 0
+D1
+There is a large ornate door here.
+~
+ornate iron east e~
+1 -1 404
+S
+#407
+A natural cavern~
+    This is a small natural cavern. A simple \c03wooden\c00 door is set in the 
+east wall.
+~
+4 d 0 0 0 0
+D0
+The tunnel leads north to the natural crossroads.
+~
+~
+0 -1 403
+D1
+There is a wooden door in the wall here.
+~
+wooden door east e~
+1 401 408
+S
+#408
+A small library~
+    This small cave has been cleaned and fitted with shelving. 
+The shelves are filled with bound \c05books\c00. The books vary in 
+size and shape. In the center of the cave is a small table 
+with a \c10glowing\c00 jar sitting upon it.
+~
+4 d 0 0 0 0
+D3
+There is a wooden door in the wall here.
+~
+wooden door west w~
+1 401 407
+E
+table jar center~
+The jar appears to contain a ball of magical \c10light\c00. You wonder 
+if it will ever extinguish.
+~
+E
+shelves books~
+You try to make out the titles of some of the \c05books\c00, but the 
+script they are written in seems to \c09writhe\c00 and \c09twist\c00 as you 
+gaze upon it. It gives you a minor \c01headache\c00.
+~
+S
+#409
+A candlelit cavern~
+    The walls of the cavern have natural ridges which service 
+to hold hundreds of \c10candles\c00 burning in a shrine to \c11Lammashta\c00. 
+There are \c04runic\c00 writings on the walls and floor as well. 
+Further west the cavern continues.
+~
+4 d 0 0 0 0
+D1
+A nautral crossroads.
+~
+~
+0 -1 403
+D3
+The summoning chamber.
+~
+~
+0 -1 410
+E
+runic writings wall walls floor~
+The characters that compose the words written here \c09writhe\c00 and 
+\c09twist\c00 under your inspection. You have a bad feeling about all 
+of this...
+~
+S
+#410
+The summoning chamber~
+   An enormus cavern, created not by \c02nature\c00 but by \c08magic\c00. The 
+room is mostly spherical, but the floor has been leveled off 
+flat. There are several large \c03tables\c00 in the chamber, but it's 
+main attraction is the large \c13summoning circle\c00 carved into the 
+floor. The entire circle is surrounded by cermonial \c10candle
+burners\c00 and \c08flaming urns\c00. A large door stops your movement 
+further west.
+~
+4 d 0 0 0 0
+D1
+A candlelit cavern
+~
+~
+0 -1 409
+D3
+Another cavern
+~
+door large west w~
+2 402 411
+E
+summoning circle~
+The circle is carved into the floor by magical means. It 
+contains many complex \c01runic\c00 structures that you cannot hope to 
+understand.
+~
+E
+books papers~
+As with all other writings of the followers of \c04Lammashta\c00, you 
+cannot make out the twisting script witten before you.
+~
+E
+tables~
+The tables contain several \c04books\c00 and papers, along with many 
+different odds and ends. You would guess they are items used 
+in a \c12summoning ritual\c00.
+~
+S
+#411
+Chambers of the High Priest~
+   This room has an odd oval shape. Set in the middle of the room is an
+elaborate, yet comfortable looking round bed. It has deep \c01red\c00 sheets that are
+embroidered with runes and other sigils. Along the walls there are 
+\c10torches\c00 attached to the stone, and there is a large wooden closet on 
+the back side of the room.
+~
+4 d 0 0 0 0
+D1
+A summoning chamber
+~
+door large east e~
+2 402 410
+S
+$~

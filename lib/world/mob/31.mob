@@ -1,0 +1,138 @@
+#3100
+young man well dressed noble hurm wyvernspur~
+Hurm Wyvernspur~
+You see a well dressed young man wandering around.
+~
+Dressed in all the latest fashions, this young man also wears the crest of
+house Wyvernspur on his cloak.
+~
+cdl 0 0 0 0 0 0 0 750 E
+6 20 8 6d10+12 1d4+1
+12 1512 0 3
+8 8 1
+E
+#3101
+outlaw~
+an outlaw~
+An outlaw is here, looking for something to steal.
+~
+A petty thief, driven out of Kortaal most likey.
+~
+d 0 0 0 0 0 0 0 -500 E
+4 20 7 4d10+8 1d4+0
+17 630 0 2
+8 8 1
+E
+#3102
+ilcurt~
+Ilcurt~
+Ilcurt Elventree, the merchent, is standing here.
+~
+He is an older looking elf, perhaps in his late one hundreds. He watches
+you with passing interest as you look about his store.
+~
+bds 0 0 0 0 0 0 0 900 E
+13 20 5 13d10+26 1d4+1
+120 0 0 3
+8 8 1
+E
+#3103
+tethgar~
+Tethgar~
+Tethgar the merchant, is standing here, eager to sell you his latest wares.
+~
+He's a young weaponsmith, who still has lots to learn.
+~
+bds 0 0 0 0 0 0 0 900 E
+5 20 6 5d10+10 1d4+1
+220 0 0 3
+8 8 1
+E
+#3104
+goblin~
+the goblin~
+A goblin is here looking for something to eat.
+~
+You see before you a small and twisted creature with knotted muscles and
+disgustingly green skin.  Doesn't look like the type you'd invite to dinner.
+~
+cdf 0 0 0 l 0 0 0 -450 E
+4 20 6 4d10+16 1d4+0
+7 630 14 3
+8 8 1
+E
+#3105
+bandit~
+a bandit~
+A bandit is demanding your money!
+~
+A middle aged thief who has taken to highway robbery.
+~
+d 0 0 0 0 0 0 0 -500 E
+4 20 7 4d10+16 1d4+2
+21 630 0 2
+8 8 1
+E
+#3106
+laele receptionist~
+Laele, the Receptionist~
+Laele, the receptionist of the Nightgate Inn is standing here.
+~
+Older for a human, Laele still has a certain diginity about her that reminds
+you of your mother. You get the feelings she might tell you to wash up and
+go off to bed any minute.
+~
+abcdls 0 0 0 0 0 0 0 900 E
+33 20 -10 1d1+30000 2d8+32
+0 0 0 3
+8 8 2
+E
+#3107
+receptionist~
+the Receptionist~
+The receptionist of the Five Fine Fish Inn is standing here.
+~
+The receptionist looks underpaid.
+~
+abcdls 0 0 0 0 0 0 0 900 E
+33 20 -10 1d1+30000 2d8+32
+0 0 0 3
+8 8 2
+E
+#3108
+citizen~
+the citizen~
+A citizen of Kaon is standing here.
+~
+An undefined string.~
+cd 0 0 0 0 0 0 0 900 E
+4 20 8 4d10+8 1d4+1
+6 630 0 3
+8 8 1
+E
+#3109
+citizen tldo~
+the citizen of Tldo~
+A citizen of Tldo is standing here.
+~
+Nothing.
+~
+cd 0 0 0 0 0 0 0 900 E
+4 20 8 4d10+8 1d4+1
+6 630 0 3
+8 8 1
+E
+#3110
+nelzol~
+Nelzol~
+Nelzol the merchent, is standing here, eager to sell you his latest wares. 
+~
+A human, male, well advanced in his years, seems to enjoy the quite life
+as a shop owner in Kaon.
+~
+bds 0 0 0 0 0 0 0 900 E
+20 20 0 20d10+60 1d4+3
+300 0 0 3
+8 8 1
+E
+$

@@ -1,0 +1,186 @@
+#4000
+large dreadful snake~
+the snake~
+A large dreadful snake is at your feet, hissing at you.
+~
+It looks hungry.
+~
+abdfq 0 0 0 l 0 0 0 -600 E
+11 20 4 11d10+22 2d4+0
+0 10800 17 3
+8 8 0
+E
+#4001
+small green snake~
+the green snake~
+A small green snake is here, and it doesn't look too friendly...
+~
+It looks harmless.
+~
+abdq 0 0 0 l 0 0 0 -100 E
+7 20 4 7d10+14 1d6+1
+0 2340 17 3
+8 8 0
+E
+#4002
+centipede~
+the centipede~
+A small centipede is here, making its way across the floor.
+~
+It looks completely harmless.
+~
+d 0 0 0 l 0 0 0 100 E
+3 20 6 3d10+6 1d6+0
+0 432 15 3
+8 8 0
+E
+#4003
+small orange skinned dog-faced humanoid kobold~
+the kobold~
+A small, orange skinned, dog-faced humanaoid is searching around here.
+~
+It looks ugly.
+~
+dj 0 0 0 l 0 0 0 -100 E
+4 20 5 4d10+8 1d4+1
+2 630 20 3
+8 8 0
+E
+#4004
+pale skinned goblinoid piggish face tusks orc~
+the orc~
+A pale skinned goblinoid with a piggish face, and sharp tusks walks around.
+~
+You notice an evil look in his eyes...
+~
+dj 0 0 0 l 0 0 0 -500 E
+5 20 5 5d10+10 1d6+1
+5 972 16 3
+8 8 1
+E
+#4005
+large pale skinned orc~
+the large orc~
+A large pale skinned orc is here, looking really mean.
+~
+He looks dreadful.
+~
+djl 0 0 0 l 0 0 0 -500 E
+8 20 4 8d10+20 1d7+2
+17 3510 16 3
+8 8 1
+E
+#4050
+warrior~
+the warrior~
+A tall warrior is here.  He has more scars than anyone you have ever seen.
+~
+He seems to be a strong, brainless fighter.
+~
+def 0 0 0 0 0 0 0 -300 E
+12 20 4 12d10+24 1d4+3
+13 14400 0 3
+8 8 1
+Str: 17
+E
+#4051
+warrior~
+the warrior~
+A tall warrior is here.
+~
+He seems to know his way with weapons.
+~
+def 0 0 0 0 0 0 0 -400 E
+7 20 5 7d10+14 1d4+1
+7 2340 0 3
+8 8 1
+Str: 16
+E
+#4052
+azag thoth azag-thoth~
+the Azag-Thoth~
+A small Azag-Thoth stands here.
+~
+The Azag-Thoth looks quite lost. And perhaps slightly hungary.
+~
+dj 0 0 0 l 0 0 0 -300 E
+6 20 6 6d10+12 1d4+0
+19 1512 10 3
+8 8 1
+E
+#4053
+snake~
+the snake~
+A brown snake watches you.
+~
+The snake looks quite mean.
+~
+abdfq 0 0 0 l 0 0 0 -600 E
+10 20 4 10d10+20 2d5+1
+0 7200 17 3
+8 8 0
+E
+#4054
+centipede~
+the centipede~
+A white centipede is here.
+~
+The centipede doesn't really seem to notice you.
+~
+d 0 0 0 l 0 0 0 -100 E
+5 20 5 5d10+10 1d7+0
+0 972 15 3
+8 8 0
+E
+#4055
+azag thoth azag-thoth~
+the Azag-Thoth~
+A large Azag-Thoth is here.
+~
+The Azag-Thoth looks quite dangerous.
+~
+dj 0 0 0 l 0 0 0 -500 E
+10 20 2 10d10+20 1d6+2
+15 7200 10 3
+8 8 1
+E
+#4056
+orc~
+the orc~
+An orc is here looking for something to eat.
+~
+He does not look as if he would be too picky about where his next meal comes
+from. You have best be wary!
+~
+df 0 0 0 l 0 0 0 -800 E
+8 20 2 8d10+16 1d4+2
+15 3510 16 3
+8 8 1
+E
+#4057
+lion mountain~
+the mountain lion~
+A mountain lion is here, growling at you viciously.
+~
+The lion looks very nasty with huge claws and big teeth.
+~
+df 0 0 0 l 0 0 0 -100 E
+5 20 5 5d10+10 2d4+0
+0 972 8 3
+8 8 1
+E
+#4058
+giant hill~
+the hill giant~
+A hill giant is here, tossing some rocks around.
+~
+The hill giant looks like he's about 9 feet tall.  By his actions you 
+come to the conclusion that he's not very intelligent.
+~
+dfq 0 0 0 l 0 0 0 0 E
+13 20 2 10d10+26 1d8+0
+10 18000 13 3
+8 8 1
+Str: 19
+E
+$

@@ -1,0 +1,13 @@
+Janey    (Nov 27) [ 6008] at 11 a.m. kortal was not open! thegates were all closed!
+Death    (Dec  8) [ 1618] animate dead doesnt work, and if cast on obj other than corpse it crashes the mud
+Jonesy   (Dec 15) [ 1001] seems like some keys are not being saved
+Jonesy   (Dec 15) [11901] seems like when i am fighting more than 1 oppponent, just typing kick does not always work to attack additional opponents
+Death    (Dec 17) [ 1618] when objects or mobs have colors in there names it displaysincorrectly. Instead of setting color as &n it should be &g for objects &y for mobs.
+Jonesy   (Dec 30) [ 8538] seems like there is trouble with the kick command in an engagement with multiple targets
+Nalor    (Jan 17) [ 6061] typo in broken armor message
+Janey    (Jan 22) [ 6129] i had just cast a strength spell and within 4 hours said i felt weaker
+Janey    (Jan 23) [ 1001] seems like the enchant weapon still is not working according to the scrolls of identify
+Zizazat  (Jan 24) [ 1617] some ppl might not be speaking their default tounge
+Janey    (Feb  5) [ 3040] the gates havenot been open in 2 game days
+Janey    (Feb 15) [ 5536] the dagger when enchanted still does not show as a plus ti hit ir damage!
+Death    (Mar  3) [ 3001] if you stat the fountain in room 3001 the material type has & color codes insted of @@.

@@ -1,0 +1,440 @@
+diff -BburpN -x '*.o' /home/zizazat/circle/yoda/src.3/boards.c /home/zizazat/circle/yoda/src/boards.c
+--- /home/zizazat/circle/yoda/src.3/boards.c	2004-12-17 15:09:16.000000000 -0600
++++ /home/zizazat/circle/yoda/src/boards.c	2005-06-07 21:23:52.000000000 -0500
+@@ -142,6 +142,7 @@ struct board_info *create_new_board(obj_
+     }
+   BOARD_VNUM(temp)=board_vnum;
+   BOARD_MNUM(temp)=0;
++  BOARD_VERSION(temp) = CURRENT_BOARD_VER;
+   temp->next=NULL;
+   BOARD_MESSAGES(temp)=NULL;
+ 
+@@ -158,31 +159,35 @@ int save_board(struct board_info *ts) {
+   struct board_memory *memboard;
+   FILE *fl;
+   char buf[512];
+-  int i=1;
++  int i = 1;
++
+   sprintf(buf,"%s/%d",BOARD_DIRECTORY,BOARD_VNUM(ts));
+   
+   if(!(fl = fopen(buf,"wb"))) {
+     log("Hm. Error while creating attempting to save board [vnum: %d].  Unable to create file '%s'",BOARD_VNUM(ts),buf);
+     return 0;
+   }
+-  fprintf(fl,"Board File\n%d %d %d %d\n",READ_LVL(ts),
+-	  WRITE_LVL(ts), REMOVE_LVL(ts), BOARD_MNUM(ts));
++
++  fprintf(fl,"Board File\n%d %d %d %d %d\n",READ_LVL(ts),
++	  WRITE_LVL(ts), REMOVE_LVL(ts), BOARD_MNUM(ts), CURRENT_BOARD_VER);
+   
+   for(message=BOARD_MESSAGES(ts);message;message=MESG_NEXT(message)) {
++    if (BOARD_VERSION(ts) != CURRENT_BOARD_VER)
++      MESG_POSTER_NAME(message) = get_name_by_id(MESG_POSTER(message));
+ 	  if (message)
+     fprintf(fl,"#%d\n"
+-	    "%ld\n"
++	    "%s\n"
+ 	    "%ld\n"
+ 	    "%s\n"
+ 	    "%s~\n",
+-	    i++, MESG_POSTER(message), MESG_TIMESTAMP(message),
++	    i++, MESG_POSTER_NAME(message), MESG_TIMESTAMP(message),
+ 	    MESG_SUBJECT(message), MESG_DATA(message));
+   }
+   /* now write out the saved info.. */
+   for(i=0;i!=301;i++) {
+     memboard=BOARD_MEMORY(ts,i);
+     while(memboard) {
+-      fprintf(fl,"S%d %d %d\n",i, MEMORY_READER(memboard),
++      fprintf(fl,"S%d %s %d\n",i, MEMORY_READER_NAME(memboard),
+ 	      +             MEMORY_TIMESTAMP(memboard));
+       memboard=MEMORY_NEXT(memboard);
+     }
+@@ -200,10 +205,10 @@ struct board_info *load_board(obj_vnum b
+   struct obj_data *obj=NULL;
+   struct stat st;
+   struct board_memory *memboard, *list;
+-  int t[4], mnum, poster,timestamp, msg_num;
+-  char filebuf[512],buf[512];
++  int t[4], mnum, poster, timestamp, msg_num, retval = 0;
++  char filebuf[512],buf[512], poster_name[128];
+   FILE *fl;
+-  int sflag, error_flag = 0;
++  int sflag;
+ 
+   sprintf(filebuf,"%s/%d", BOARD_DIRECTORY,board_vnum);
+   if(!(fl=fopen(filebuf,"r"))) {
+@@ -212,7 +217,6 @@ struct board_info *load_board(obj_vnum b
+   }
+   /* this won't be the most graceful thing you've ever seen .. */
+   get_line(fl,buf);
+-  
+   if(strcmp("Board File",buf)) {
+     log("Invalid board file '%s' [vnum: %d] - failed to load.", filebuf,board_vnum);
+     return NULL;
+@@ -222,13 +226,19 @@ struct board_info *load_board(obj_vnum b
+   temp_board->vnum=board_vnum;
+   get_line(fl, buf);
+   /* oddly enough, most errors in board files can be ignored, setting 
+-defaults */
++     defaults */
++ 
++  if ((retval = sscanf(buf,"%d %d %d %d %d", t, t+1, t+2, t+3, t+4)) != 5) {
++    if (retval == 4) {
++      log("Parse error on board [vnum: %d], file '%s' - attempting to correct [4] args expecting 5.", board_vnum, filebuf);
++      t[4] = 1;
++    } else if (retval != 4) {
++      log("Parse error on board [vnum: %d], file '%s' - attempting to correct [< 4] args expecting 5.", board_vnum, filebuf);
+   
+-  if (sscanf(buf,"%d %d %d %d", t, t+1, t+2, t+3) != 4) {
+-    log("Parse error on board [vnum: %d], file '%s' - attempting to correct.", board_vnum, filebuf);
+     t[0] = t[1] = t[2] = LVL_IMMORT;
+     t[3] = -1;
+-    error_flag = 1;
++      t[4] = 1;
++    }
+   }
+   /* if the objcet exists, the object trumps the board file settings */
+   
+@@ -249,6 +259,8 @@ defaults */
+     WRITE_LVL(temp_board)=t[1];
+     REMOVE_LVL(temp_board)=t[2];
+     BOARD_MNUM(temp_board)=t[3];
++    BOARD_VERSION(temp_board)=t[4];
++    log("Board vnum %d, Version %d", BOARD_VNUM(temp_board), BOARD_VERSION(temp_board));
+   } else {
+     obj = &(obj_proto[real_object(board_vnum)]);
+     /* double check one or two things */
+@@ -256,12 +268,12 @@ defaults */
+        t[1] != GET_OBJ_VAL(obj,VAL_BOARD_WRITE) ||
+        t[2] != GET_OBJ_VAL(obj,VAL_BOARD_ERASE)) {
+       log("Mismatch in board <-> object read/write/remove settings for board [vnum: %d]. Correcting.", board_vnum);
+-      error_flag=1;
+     }
+     READ_LVL(temp_board)=GET_OBJ_VAL(obj, VAL_BOARD_READ);
+     WRITE_LVL(temp_board)=GET_OBJ_VAL(obj, VAL_BOARD_WRITE);
+     REMOVE_LVL(temp_board)=GET_OBJ_VAL(obj, VAL_BOARD_ERASE);
+     BOARD_MNUM(temp_board)=t[3];
++    BOARD_VERSION(temp_board)=t[4]; 
+   }
+   
+   BOARD_NEXT(temp_board)=NULL;
+@@ -270,21 +282,36 @@ defaults */
+   /* now loop and parse messages and memory */
+   msg_num = 0;
+   while(get_line(fl,buf)) {
+-    if(*buf == 'S') {
++    if(*buf == 'S' && BOARD_VERSION(temp_board) != CURRENT_BOARD_VER) {
+       if(sscanf(buf,"S %d %d %d ", &mnum, &poster, &timestamp) == 3) {
+ 	CREATE(memboard, struct board_memory, 1);
+-	MEMORY_READER(memboard)=poster;
++	MEMORY_READER(memboard) = poster;
++	MEMORY_TIMESTAMP(memboard)=timestamp;
++      }	
++    } else if (*buf == 'S' && BOARD_VERSION(temp_board) == CURRENT_BOARD_VER) {
++      if(sscanf(buf,"S %d %s %d ", &mnum, poster_name, &timestamp) == 3) {
++	CREATE(memboard, struct board_memory, 1);
++	MEMORY_READER_NAME(memboard) = strdup(poster_name);
+ 	MEMORY_TIMESTAMP(memboard)=timestamp;
+-	
+ 	/* now, validate the memory => insure that for this slot, id, and timestamp there
+ 	   is a valid message, and poster.  Memory is deleted for mundane reasons; character
+ 	   deletions, message deletions, etc.  'Failures' will not be logged */
+-	
+-	if(get_name_by_id(poster) == NULL) {
++       if ((get_name_by_id(poster) == NULL) && (BOARD_VERSION(temp_board) != CURRENT_BOARD_VER)) {
++	   free(memboard);
++       }else if ((poster_name == NULL) && (BOARD_VERSION(temp_board) == CURRENT_BOARD_VER)) {
+ 	  free(memboard);
+-	  error_flag = 1;
+ 	} else {
+ 	  /* locate specific message this pertains to - therefore, messages MUST be loaded first! */
++
++	if (BOARD_VERSION(temp_board) == CURRENT_BOARD_VER){
++          for(bmsg=BOARD_MESSAGES(temp_board), sflag=0; bmsg && !sflag; bmsg = MESG_NEXT(bmsg)) {
++	    if(MESG_TIMESTAMP(bmsg) == MEMORY_TIMESTAMP(memboard)
++	       && (mnum == ((MESG_TIMESTAMP(bmsg)%301 +
++			     get_id_by_name(MESG_POSTER_NAME(bmsg))%301)%301))) {
++	      sflag=1;
++	    }
++	  }
++	} else {
+ 	  for(bmsg=BOARD_MESSAGES(temp_board), sflag=0; bmsg && !sflag; bmsg = MESG_NEXT(bmsg)) {
+ 	    if(MESG_TIMESTAMP(bmsg) == MEMORY_TIMESTAMP(memboard)
+ 	       && (mnum == ((MESG_TIMESTAMP(bmsg)%301 +
+@@ -292,7 +319,7 @@ defaults */
+ 	      sflag=1;
+ 	    }
+ 	  }
+-	  
++         }  
+ 	  if(sflag) {
+ 	    if(BOARD_MEMORY(temp_board,mnum)) {
+ 	      list=BOARD_MEMORY(temp_board,mnum);
+@@ -306,15 +333,13 @@ defaults */
+ 	    free(memboard);
+ 	  }
+ 	}
+-      } else {
+-	error_flag=1;
+       }
+     } else if (*buf == '#') {
+-      if(parse_message(fl, temp_board)) {
++      if (parse_message(fl, temp_board)) {
+ 	msg_num++;
+     }
+     }
+-  }
++  }/* End of While */
+ 
+   /* now we've completely parsed our file */
+   fclose(fl);
+@@ -322,30 +347,37 @@ defaults */
+     log("Board [vnum: %d] message count (%d) not equal to actual message count (%d). Correcting.",
+ 	BOARD_VNUM(temp_board),BOARD_MNUM(temp_board),msg_num);
+     BOARD_MNUM(temp_board) = msg_num;
+-    error_flag = 1;
+   }
+   /* if the error flag is set, we need to save the board again */
+-  if(error_flag) {
+     save_board(temp_board);
+-  }
+   return temp_board;
+ }
+ 
+ int parse_message(FILE *fl, struct board_info *temp_board) {
+   struct board_msg *tmsg, *t2msg;
+   char subject[81];
+-  char buf[MAX_MESSAGE_LENGTH + 1];
++  char buf[MAX_MESSAGE_LENGTH + 1], poster[128];
+   /* arbitrairy max message length */
+ 
+   CREATE(tmsg, struct board_msg, 1);
+ 
+   /* what about our error checking? */
++  if (BOARD_VERSION(temp_board) != CURRENT_BOARD_VER){
+   if(fscanf(fl, "%ld\n", &(MESG_POSTER(tmsg))) != 1 ||
+      fscanf(fl, "%ld\n", &(MESG_TIMESTAMP(tmsg))) != 1 ) {
+     log("Parse error in message for board [vnum: %d].  Skipping.", BOARD_VNUM(temp_board));
+     free(tmsg);
+     return 0;
+   }
++  } else {
++   if(fscanf(fl, "%s\n", poster) != 1 ||
++      fscanf(fl, "%ld\n", &(MESG_TIMESTAMP(tmsg))) != 1 ) {
++     log("Parse error in message for board [vnum: %d].  Skipping.", BOARD_VNUM(temp_board));
++     free(tmsg);
++     return 0;
++   }
++   MESG_POSTER_NAME(tmsg) = strdup(poster);
++  }  
+   get_line(fl,subject);
+ 
+   MESG_SUBJECT(tmsg)=strdup(subject);
+@@ -426,6 +458,10 @@ void show_board(obj_vnum board_vnum, str
+   int msgcount=0,yesno=0;
+   char buf[MAX_STRING_LENGTH];
+   char name[127];
++
++  *buf = '\0';
++  *name = '\0';
++  
+   /* board locate */
+   if(IS_NPC(ch)) {
+     send_to_char(ch,"Gosh.. now .. if only mobs could read.. you'd be doing good.\r\n");
+@@ -471,7 +507,10 @@ void show_board(obj_vnum board_vnum, str
+     tmstr = (char *) asctime(localtime( &MESG_TIMESTAMP(message)));
+     *(tmstr + strlen(tmstr) - 1) = '\0';
+     yesno=mesglookup(message,ch,thisboard);
+-    sprintf(name,"%s",get_name_by_id(MESG_POSTER(message)));
++    if (BOARD_VERSION(thisboard) != CURRENT_BOARD_VER)
++      snprintf(name, sizeof(name),"%s",get_name_by_id(MESG_POSTER(message)));
++    else
++      snprintf(name, sizeof(name), "%s", MESG_POSTER_NAME(message));     
+     sprintf(buf+strlen(buf),"[%s] (%2d) : %6.10s (%-10s) :: %s \r\n",
+ 	    yesno ? "x" : " ",
+ 	    ++msgcount,
+@@ -548,11 +587,16 @@ void board_display_msg(obj_vnum board_vn
+     return;
+   }	      /* Have message, let's add the fact that this player read the mesg */
+ 
++  if (BOARD_VERSION(thisboard) != CURRENT_BOARD_VER)
+   mem = ((MESG_TIMESTAMP(message)%301 + MESG_POSTER(message)%301)%301);
+-
++  else
++    mem = ((MESG_TIMESTAMP(message)%301 + get_id_by_name(MESG_POSTER_NAME(message))%301)%301);
+   /*make the new node */
+   CREATE(mboard_type, struct board_memory, 1);
+-  MEMORY_READER(mboard_type)=GET_IDNUM(ch);
++  if (BOARD_VERSION(thisboard) != CURRENT_BOARD_VER)
++   MEMORY_READER(mboard_type) = GET_IDNUM(ch);
++  else
++   MEMORY_READER_NAME(mboard_type) = strdup(GET_NAME(ch)); 
+   MEMORY_TIMESTAMP(mboard_type)=MESG_TIMESTAMP(message);
+   MEMORY_NEXT(mboard_type)=NULL;
+   /* Let's make sure that we don't already have this memory recorded */
+@@ -560,14 +604,20 @@ void board_display_msg(obj_vnum board_vn
+   list=BOARD_MEMORY(thisboard,mem);
+   sflag=1;
+   while(list && sflag) {
++   if (BOARD_VERSION(thisboard) != CURRENT_BOARD_VER) { 
+     if (MEMORY_READER(list) == MEMORY_READER(mboard_type) &&
+ 	MEMORY_TIMESTAMP(list) == MEMORY_TIMESTAMP(mboard_type)) {
+       /* nope, slot, reader, and timestamp equal, so already saved */
+       sflag=0;
+-      
++    }
++   } else {
++     if (!strcmp(MEMORY_READER_NAME(list), MEMORY_READER_NAME(mboard_type)) &&
++	MEMORY_TIMESTAMP(list) == MEMORY_TIMESTAMP(mboard_type)) {
++      /* nope, slot, reader, and timestamp equal, so already saved */
++      sflag=0;
++    }
+     }
+     list=MEMORY_NEXT(list);
+-    
+   }
+   
+   if(sflag) {
+@@ -583,7 +633,10 @@ void board_display_msg(obj_vnum board_vn
+      readable timestamp. */
+   tmstr = (char *) asctime(localtime(&MESG_TIMESTAMP(message)));
+   *(tmstr + strlen(tmstr) - 1) = '\0';
+-  sprintf(name,"%s",get_name_by_id(MESG_POSTER(message)));
++  if (BOARD_VERSION(thisboard) != CURRENT_BOARD_VER)
++    snprintf(name, sizeof(name), "%s",get_name_by_id(MESG_POSTER(message)));
++  else
++    snprintf(name, sizeof(name), "%s", MESG_POSTER_NAME(message));
+   sprintf(buf,"Message %d : %6.10s (%s) :: %s\r\n\r\n%s\r\n",
+ 	  arg,
+ 	  tmstr,
+@@ -604,17 +657,20 @@ void board_display_msg(obj_vnum board_vn
+ 
+ int mesglookup(struct board_msg *message,struct char_data *ch, struct board_info *board)
+ {
+-  int mem;
++  int mem = 0;
+   struct board_memory *mboard_type;
+-  mem = ((MESG_TIMESTAMP(message)%301 + MESG_POSTER(message)%301)%301);
++  char *tempname = NULL; 
+ 
++  if (BOARD_VERSION(board) != CURRENT_BOARD_VER)
++    mem = ((MESG_TIMESTAMP(message)%301 + MESG_POSTER(message)%301)%301);
++  else
++    mem = ((MESG_TIMESTAMP(message)%301 + get_id_by_name(MESG_POSTER_NAME(message))%301)%301);   
+   /* now, we check the mem slot. If its null, we return no, er.. 0..
+      if its full, we double check against the timestamp and reader -mislabled as poster, but who cares...
+      if they're not true, we go to the linked next slot, and repeat */
+ 
+   mboard_type=BOARD_MEMORY(board,mem);
+-  while(mboard_type) {
+-
++  while(mboard_type && BOARD_VERSION(board) != CURRENT_BOARD_VER) {
+     if(MEMORY_READER(mboard_type)==GET_IDNUM(ch) &&
+        MEMORY_TIMESTAMP(mboard_type)==MESG_TIMESTAMP(message)) {
+       return 1;
+@@ -622,6 +678,18 @@ int mesglookup(struct board_msg *message
+       mboard_type=MEMORY_NEXT(mboard_type);
+     }
+   }
++
++  tempname = strdup(GET_NAME(ch));
++  while(mboard_type && BOARD_VERSION(board) == CURRENT_BOARD_VER) {
++    if (!strcmp(MEMORY_READER_NAME(mboard_type), tempname) &&  
++        MEMORY_TIMESTAMP(mboard_type) == MESG_TIMESTAMP(message)) {
++      return 1;
++    } else {
++      mboard_type=MEMORY_NEXT(mboard_type);
++    }
++  }
++  
++  free(tempname);
+   return 0;
+ }
+ 
+@@ -656,7 +724,7 @@ void write_board_message(obj_vnum board_
+ 
+ 
+   CREATE(message, struct board_msg, 1);
+-  MESG_POSTER(message)=GET_IDNUM(ch);
++  MESG_POSTER_NAME(message) = strdup(GET_NAME(ch));
+   MESG_TIMESTAMP(message)=time(0);
+   MESG_SUBJECT(message) = strdup(arg);
+   MESG_NEXT(message)=NULL;
+@@ -672,7 +740,6 @@ void write_board_message(obj_vnum board_
+ 
+   BOARD_MESSAGES(thisboard) = message;
+   send_to_char(ch,"Write your message.  (/s saves /h for help)\r\n");
+-  //act("$n starts to write a message.", TRUE, ch, 0, 0, TO_ROOM);
+ 
+   SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
+   string_write(ch->desc, &(MESG_DATA(message)),
+@@ -717,7 +784,7 @@ void board_respond(long board_vnum, stru
+     other=MESG_NEXT(other);
+   
+   CREATE(message, struct board_msg, 1);
+-  MESG_POSTER(message)=GET_IDNUM(ch);
++  MESG_POSTER_NAME(message) = strdup(GET_NAME(ch));
+   MESG_TIMESTAMP(message)=time(0);
+   sprintf(buf,"Re: %s",MESG_SUBJECT(other));
+   MESG_SUBJECT(message)=strdup(buf);
+@@ -802,8 +869,7 @@ void remove_board_msg(obj_vnum board_vnu
+   }
+   /* perform check for mesg in creation */
+   
+-  if(GET_LEVEL(ch) < LVL_IMMORT && GET_IDNUM(ch) != MESG_POSTER(cur))
+-  {
++  if(GET_LEVEL(ch) < LVL_IMMORT && GET_NAME(ch) != MESG_POSTER_NAME(cur)) {
+ 	  send_to_char(ch, "You can't remove other people's messages.\r\n");
+ 	  return;
+   }
+diff -BburpN -x '*.o' /home/zizazat/circle/yoda/src.3/boards.h /home/zizazat/circle/yoda/src/boards.h
+--- /home/zizazat/circle/yoda/src.3/boards.h	2004-10-20 12:46:18.000000000 -0500
++++ /home/zizazat/circle/yoda/src/boards.h	2005-06-07 21:18:40.000000000 -0500
+@@ -24,6 +24,7 @@ struct board_msg {
+   char *data;
+   struct board_msg *next;
+   struct board_msg *prev;
++  char *name;
+ };
+ 
+ /* Defines what we require to generate a hash for lookup
+@@ -33,6 +34,7 @@ struct board_memory {
+   int timestamp;
+   int reader;
+   struct board_memory *next;
++  char *name;
+ };
+ 
+ struct board_info {
+@@ -43,6 +45,7 @@ struct board_info {
+   int  vnum;
+   struct board_info *next;
+   struct board_msg *messages;
++  int  version;
+   
+   /* why 301? why not?  It might not be the greatest, but if you really
+      know what a hash is, you'll realize that in this case, I didn't even
+@@ -59,6 +62,8 @@ struct board_info {
+ #define BOARD_NEXT(i) (i->next)
+ #define BOARD_MESSAGES(i) (i->messages)
+ #define BOARD_MEMORY(i,j) (i->memory[j])
++#define BOARD_VERSION(i) 	 (i->version)
++#define CURRENT_BOARD_VER	 2
+ 
+ #define MESG_POSTER(i) (i->poster)
+ #define MESG_TIMESTAMP(i) (i->timestamp)
+@@ -66,10 +71,12 @@ struct board_info {
+ #define MESG_DATA(i) (i->data)
+ #define MESG_NEXT(i) (i->next)
+ #define MESG_PREV(i) (i->prev)
++#define MESG_POSTER_NAME(i)	 (i->name)
+ 
+ #define MEMORY_TIMESTAMP(i) (i->timestamp)
+ #define MEMORY_READER(i) (i->reader)
+ #define MEMORY_NEXT(i) (i->next)
++#define MEMORY_READER_NAME(i)	 (i->name)
+ 
+ void init_boards(void);
+ struct board_info *create_new_board(obj_vnum board_vnum);

@@ -1,0 +1,806 @@
+changelog:
+	6/30/05 (release)
+        - (C) Initialized unique object pools as part of boot_db.
+          Thanks to Fnord!
+	6/23/05
+        - (C) Updates to free_room_strings, free_room, and free_srings.
+          Thanks to Welcor!
+	6/08/05
+        - (C) Applied board update patch
+          Thanks to Cunning! 
+	6/03/05 
+        - (C) Added pagelength patch provided by Ken!
+	6/02/05 
+        - (C) There is some confusion about the changes made to item_in_list. So
+          the changes were rolled out.
+	  Thanks Ken!
+	6/01/05
+        - (C) Fixed typo and bad logic related to EXP_MULTIPLIER cedit addition.
+          Thanks to Maclir! 
+	5/31/05 (release)
+        5/29/05 
+	- Update to same_obj which wasn't correctly condensing objects
+	  in shop lists.
+	  Thanks to Fnord!
+	- Happy birthday to Fnord! :P
+        5/25/05 
+	- After noticing that the DG_SCRIPTS_VERSION was incorrect, I went
+	  back and checked some of the stuff from the DG 1.0.13 patch. The
+	  patch, however, does NOT correctly update the VERSION, but I found
+	  a few other little things which got over looked. So, even though
+	  CWG was on DG Scripts 1.0.13 the version information now agrees. :)
+        5/15/05 
+	- Added new cedit code to support an in game EXP MULTIPLIER. The
+	  default value is 1.00, but you can change it to anything you like.
+	  Thanks to Glicker (glicker42@hotmail.com) for the idea!
+        5/14/05 
+	- Update to create_money and diag_obj_to_char.
+	  Thanks to Ken!
+        4/30/05 (release)
+        4/23/05 
+	- Update to list_obj_to_char so corpse objects properly stack.
+	  Thanks to Ken!
+        4/20/05 
+	- Update to perform_get_from_room so mobs properly get ITEM_MONEY
+	  objects.
+        4/04/05 
+	- Change to item_in_list submitted by Ken.
+	- Somehow lost Ken's copyover changes for last release. Added again.
+        3/31/05 (release)
+        3/26/05 
+	- Minor typo in update_pos in fight.c.
+	  Thanks to Ken!
+	- Change to free_strings() in oasis_delete.c related to freeing 
+	  extra descriptions. 
+	  Thanks to Kris (chris@dokein.co.uk) for the reminder!
+        3/06/05 
+	- Change in oedit.c for permanent effects displays.
+	- Removed redundant MAX_DUPLICATES define from zedit.c
+	- Also made changes to copyover/saved room code for more logical
+	  behavior.
+	  All thanks to Ken!
+        3/02/05 
+	- Fixed bug in recent update to do_language_say. Fix was also
+	  retroactivly applied to the 2.2.28 release.
+	  Thanks to Juras!
+        2/28/05 (release)
+        2/27/05 
+	- Added code for say text to vary based on puncuation. 
+	  Thanks to Gilean42!
+        - Bug fix in oedit_disp_perm_menu.
+          Thanks to Gilean42! 
+	- Bug fix in assedit to prevent crashing when object for assembly
+	  has not been created.
+	  Thanks to Cunning!
+        2/10/05 
+	- Changes to extra_bits which had a few ANTI flags named incorrectly
+	  compaired to their defines.
+	  Thanks to Ken for brining it up!
+        1/31/05 (release)
+	- Happy 2nd Birthday to the CWG Project!
+        1/16/05  
+	- Removed additional lines from do_stat_room.
+	  Thanks to Ken!
+	- Added missing code to create_obj. 
+	  Thanks to David Aiau (r2yum4u@es.co.nz) and Welcor!
+        1/14/05  
+	- Gedit crash resolved in real_guild. Same change made to real_shop, 
+	  real_zone, real_room, real_mobile, real_object, real_trigger, 
+	  real_zone_by_thing to prevent similar behavior.
+	  Thanks to Fnord!
+	- Bug fix in oedit_disp_spells_menu. 
+	  Thanks to Ken!
+        12/31/04  (release)
+        12/25/04 
+	- Added missing espec mob checks for non-standard CON and CHA in 
+	  genmob.c
+        12/23/04 
+	- Changed assembly code so it is now skill based. There are 11 new
+	  skills, to cover all the assembly types. You will need to assign
+	  them in class.c for anyone to be able to use. You can also add
+	  them to your guildmasters under the gedit menu for skills.
+	  Thanks to Glimblade!
+        12/19/04 
+	- Updates to do_sac, it seemed sort of out of balance.
+	  Thanks to Glimblade for the suggestion!
+        12/17/04 
+   	- Message board fix.
+	  Thanks to Fnord!
+        12/15/04 
+	- Fix for possible problems with having bitvector 31 set.
+	- Rent system fixes supplied by Fnord.
+	- Thanks to Fnord!
+        11/30/04 (release)
+        11/13/04 
+	- Added additional wear slots checking for dg_scripts find_eq_pos_script
+	  and can_wear_on_pos.
+	- Changed cmd_info to complete_cmd_info for text_processed.
+	  Thanks to Cunning!
+        11/04/04 
+	- Fixed copyover connection id assignment problem.
+	  Thanks to Gilean42 and Fnord!
+        11/03/04 
+	- Added correct direction for mage guild guard in room 3017.
+	- Also removed rooms 3002, 3003 and 3004 as they were unlinked.
+	- Added correct pet shop special assigns.
+	  Thanks to Cansian(felipedaniel@terra.com.br)!
+        11/02/04 
+	- Removed extra ; from do_compare and is_better.
+	  Thanks to Gilean42!
+        11/01/04 
+	- Corrected minor problem in do_drink releated to object value patch.
+	- Corrected VAL_POTION_SPELL problem in do-stat_object related to 
+	  object value patch.
+	  Thanks to Gilean42!
+        10/31/04 (release)
+        10/27/04 
+	- Update to appear(). Mobs that were AFF_INVIS flagged would
+	  appear each round, but the flag would not get cleared.
+	- Update to do_dig. It now accepts both full direction name
+	  as well as short direction name (south and s). 
+ 	  Thanks to Gilean42(gilean@krynnmud.com)
+        10/25/04 
+	- Updates to race and class help screens.
+	  Thanks to Fnord.
+        10/24/04 
+	- Fix to same_obj to account for the newly add ITEM_UNIQUEs.
+	  Thanks to Fnord.
+        10/23/04 
+	- Added values patch, which abstracts out the location of object values.
+	  Submitted by Fnord.
+	- Added petsave patch which allows you to rent/return with pets.
+	  Submitted by Fnord.
+        10/20/04 
+	- Update to boards code to resolve VIEWORDER problem.
+	  Thanks to Dark and Fade.
+        10/9/04 
+	- Implemented hash tree system which helps speed lookups 
+	  for room, mob, objs in game.
+	  Thanks to Fnord!
+        10/6/04 
+	- Memory leak fix in fight.c
+	  Thanks to Fnord!
+	- Object stacking fix so objects only stack if they
+	  are the same vnum AND short description.
+	  Thanks to Fnord!
+        10/3/04 
+	- Update to race_display and parse_race which still had Half Orc in
+	  the wrong place.
+          Thanks to ret (ret@bash-shell.net).
+	- Change to remove_unique_id to plug mem leek.
+	  Thanks to Cunning, Welcor and Fnord!
+        10/2/04 
+	- Changes in dg_comm.c suggested by Welcor!
+        10/1/04 
+	- I forgot to note that the timed_dt patch was also added in the
+	  1.09.30 release, the version command shows it, but the ChangeLog
+	  does not. My bad. Thanks to Cunning for submitting it!
+        9/30/04 (release)
+        9/29/04 
+	- Added look_in_obj fix which was causing conflicts between
+	  room keywords and object keywords. 
+	  Thanks to Cunning!
+        9/28/04 
+	- Added the wizupdate command back in, it appears to have been
+	  taken out during the APF upgrade a few releases back.
+	  Thanks to Random for pointing that out!
+        9/27/04 
+	- Added current.patch submitted by Cunning.
+	  This code randomly moves you out of a room flagged CURRENT.
+	- Added color_question_remove.patch submitted by Cunning.
+ 	  This modifies the query ansi code so you don't have to answer
+	  Y/N each time you connect.
+        9/23/04 
+	- Added Circle Unsigned Patch submitted by 
+	  Star (starchaser5000@yahoo.co.uk)
+        9/20/04 
+	- Updates to oedit.c to fix iedit crashes.
+	  Thanks to Fnord!
+        9/18/04 
+	- Added a cedit toggle for CONFIG_ALL_ITEMS_UNIQUE. This
+	  goes along with code submitted by Fnord which tags all
+	  items in the game with a unique ID stamp. This is to help
+	  prevent object duping. The default behavior is ON, and this
+	  means all objects created will be flagged with the UNIQUE flag.
+	  You can see more info with the show uniques command, or
+	  show uniques (vnum) of an object you are interested in. If you do
+	  toggle this flag ON or OFF you should copyover to reload all objects
+	  appropriately. 
+	  Thanks to Fnord!
+        9/11/04 
+	- Added a cedit toggle for CONFIG_ENABLE_LANGUAGES. The default
+	  behavior is ON. However, turning this off makes everyone speak
+	  and understand the same language.
+	- Added sector type to the information displayed on a room if
+	  you have ROOMFLAGS turned on. 
+	- Added Autoassist patch. Also updated it so that it works either
+	  way (master assists followers or followers assist master).
+	  Thanks to Dark for submitting the original update!
+        9/10/04 
+	- Updates for cedit and DISPLAY_CLOSED_DOORS tag. There was
+	  some mixed confusion about disp_closed_doors and display_closed_doors
+	  so changes to the toggle weren't behaving correctly.
+	  Thanks to Dark (dark_court_jester@hotmail.com) for pointing this out!
+        9/7/04 
+	- Added iedit code updated by Fnord.
+        9/6/04 
+	- Added MCCP2 compression code submitted by Fnord.
+	- Added duplicate object checking code submitted by Fnord.
+        9/4/04 
+	- Hopefully the final fixes for dynamic board code.
+	  Thanks Fnord and Fade both!
+        9/1/04 
+	- Added short title to board objects (in show_board) when you look 
+	  at them.
+	  Thanks Ken!
+        8/31/04 (release)
+	- Boards are pretty much broken at this point. Sorry. I'll try
+	  to get it fixed by the next release.
+        8/15/04
+	- Bug fix for look_at_target(). 
+	  Thanks Ken.
+        8/14/04
+	- Hopefully fixed some problems introduced (revealed?) with the
+	  last release as far as rent/free rent and quitting go. There
+	  was a nasty little bug where equipment duping was very easy
+	  to do.
+	  Thanks to Thinker (rcb1974@yahoo.com) and Fade(feersum2003@yahoo.com).
+	- Made some changes, mainly replacing strcasecmp calls with strcmp.
+	  These changes were made by Fade to get everything working under
+	  Windows. 
+	  Thanks Fade!
+        8/13/04
+	- Added some missing dg_scripts related logic to save_char.
+          Thanks to cunning for reporting this!
+        8/3/04
+	- Added VIEWORDER to preference_bits. 
+	  Thanks to forsakenredog.
+        8/2/04
+	- REALLY removed diskio.c and diskio.h from the src/ directory.
+	  Thanks to Juras for bringing this up.
+        7/31/04 (release)
+        7/25/04
+        - Removed the now useless diskio.c and diskio.h.
+        7/24/04
+        - Patched in Dynamic Message Board code by Patrick Dughi. The
+          original README file can be found in doc/cwg/board-2.4.README.
+          Thanks to Ret (mud@server1.bash-shell.net) for submitting the patch!
+        - Also some cleanup of the patch_list constants so the display
+          is cleaner.
+        7/2/04
+        - Clean up spec_procs.c for some functions that got moved to guild.c
+        6/13/04
+        - Fixed problems related to stat rerolling and some strange
+          results with copyover etc...
+          Thanks to Juras(selorien@hotmail.com), Slayer (r2yum4u@es.co.nz) 
+	  and Ayana.
+        - Completed ASCII Player files 3.0.1 upgrade.
+        6/06/04
+        - Completed ASCII Player files 3.0 upgrade.
+        6/03/04
+        - Started applying the ASCII Player Files 3.0 upgrade.
+        - Removed a few left over debugging messages from objsave.c
+        5/31/04 (release)
+        5/23/04
+        - Added cedit hooks to allow players to re-roll their stats on
+          creation. It is under the Game Play Options menu of cedit.
+        5/10/04
+        - Added code for re-rolling player abilities at creation. I plan
+          to add a cedit hook shortly to make this admin selectable. Thanks
+          to Glimblade (glimblade@gmail.com) for the suggestion!
+        5/1/04
+        - Added autosac and sacrifice commands. Donated by Rumble!
+        4/30/04
+        - Update to do_who to add (nowiz) flagged players to the display.
+          Thanks to Rumble!
+        - Change to damage() to allow LVL_IMPL to be immune to ROOM_PEACEFUL.
+        - Change to call_magic() to allow LVL_IMPL to be immune to
+          ROOM_NOMAGIC and ROOM_PEACEFUL. Thanks to Rumble!
+        - Added do_gemote command which allows you to emote over the gossip
+          channel. Donated by Rumble!
+        4/11/04
+        - Updated lib/misc/messages file due to some changed skill number
+          messages being incorrect from the last release. Thanks to Ayana!
+        4/5/04
+        - Update to oasis.h for the incorrect NUM_TRADERS value. Thanks
+          to Ayana.
+        4/4/04
+        - Updates to oedit_disp_perm_menu, as they never made it into
+          128 bit land. Thanks to Ayana (ayana@tiamats-lair.net)
+        3/31/04 (release)
+	- Created doc/cwg directory for all future CWG releated documentation.
+	  Random Thoughts has submitted 2 documents, one for adding races and
+	  one for adding levels. I've also moved Key Ray's portals.pdf and
+	  vehicles.pdf into that directory.
+       - Added new guild master code. New commands show guild, and 
+	 gedit <guild number>) have been added. Works very much like sedit. 
+	 You can now tell a guild master what he can train, and who he can 
+	 train it to. Very cool code submitted by Death!
+        3/28/04
+        - Change to do_look for keyword interaction by Ken Ray.
+        - Changes to oedit_parse for object timers by Ken Ray.
+        3/20/04
+        - Changes to house.c to allow loading house saved objects. Thanks
+          to firebird_223 for the patch!
+        3/19/04
+        - Changes to Crash_listrent reported by firebird_223.
+        3/11/04
+	- Update to race_app_skill so the array was initlized with the
+	  correct number of elements. Thanks to Random for helping me see
+	  it. 
+        3/10/04
+        - Strange behavior reported in spell_recall. It was sending players
+          to the RNUM value of MORTAL_CONFIG_START, not the VNUM value. Thanks
+          to Olmy.
+        3/06/04
+        - Update to copyover() due to some 128 bit flag checking issues.
+          Thanks to cunning for reporting this!
+        - Updated the lib/misc/messages file to include more color! Thanks
+          to Death!
+        3/04/04
+        - Update to parse_room() to undo change of asciiflag_conv. Thanks
+          to Rumble.
+        - Updates to Crash_listrent which was causing the game to core! Thanks
+          to Fnord.
+	3/03/04
+	- Updates to do_stat_object to use new color codes. 
+        2/29/04 (release)
+        - Removed some leftover code from process_output which was
+          interfearing with the manual_color code. Thanks to Welcor
+          for the troubleshooting help!
+        2/27/04
+        - Upgraded DG Scripts code to the newest release 1.0.13.  Updated
+          DG_Readme_1.0.13.txt can be found in doc/README.
+          Thanks to Welcor (welcor@builderacademy.net)!
+        - Changed the color code character from '&' to '@'. This was done in 
+	  CWG-Buddha  in support of the addition of TBA world files, and done
+	  in CWG-SunTzu for consistancy.
+        - Change to assemblyAddComponent() to allow assemblies to have
+          more than one of the same item required to create them. Thanks
+          to firebird_223 for asking about this!
+        2/24/04
+        - Added level and broken item check for wear all. Found and fixed 
+	  by Ken!
+        2/22/04
+        - Added IMM command peace to stop all fighting in that room.
+          Submitted by Random(random_thoughts_mud@yahoo.com).
+        2/21/04
+        - Changed the arguments of autoexit command so they are uniform
+          with the IMM syslog and MORTAL color commands.
+        - Changed one of the arguments of color from sparse to brief so it
+          is more uniform with the IMM syslog and MORTAL autoexit commands.
+        - Added IMMORT disable command patch. This allows commands to be
+          disabled from use within the game easily. Thanks to
+          Erwin Andreasen (erwin@andreasen.org) who wrote the original MERC
+          code. Thanks to Alexei Svitkine (isvitkin@sympatico.ca) for porting
+          it to Circle 3.1 and Jerry (jerry@trifle.net) for sending me a clean
+          patch!
+        - Added a line to do_score so you can see your race/class.
+        - Updates to group_gain and perform_group_gain submitted by Ken.
+        2/20/04
+        - Changed the value of LVL_BUILDER from LVL_GRGOD to LVL_IMMORT. 
+          I don't believe it was set that high. I also changed around several
+          GOD level commands so commnds open to LVL_IMMORT/LVL_BUILDER were
+          more in line with what they really need as builders. Thanks to
+          Ashen (ashen@moonlightglade.net) for bringing this up!
+        2/19/04
+        - Updated save_char to correctly save PREFFLAGS, AFFFLAGS, and
+          PLRFLAGS. Thanks to Nate!
+        - Fix for LOADROOM and copyover conflicts. Thank to Ken!
+        2/16/04
+        - Updated code in ok_pick() so people who don't have any skill in
+          pick lock can't automatically pick locks! Thanks Ken!
+        - Update to gain_exp() to make CONFIG_IMMORT_LEVEL_OK work like
+          it should. Thanks to Ken and Mysidia (mysidia-v@darkfire.net)
+        - Update to damage() to fix possible gold duping bug introducted
+          by AUTOSPLIT code. Thanks Ken!
+        2/15/04 
+        - Upgraded DG Scripts code to the newest release 1.0.12.  Updated
+          DG_Readme_1.0.12.txt can be found in doc/README.
+          Thanks to Welcor (welcor@builderacademy.net)!
+	- Added an Immortal Bulletin Board in the IMM_START_ROOM. Thanks
+	  to Pontiac (mike@pontiacmaniacs.com)
+        2/09/04 
+	- Change to the way copyover command behaves. Now everyone should
+	  return to the same room they were in when the copyover was started.
+	  Thanks to Nate Winters!
+	- Update to do_say so that invisibile people are not exposed when
+	  they speak. Thanks to Ken Ray!
+        2/08/04 
+	- Added astat into interpreter.c which was missing. 
+	- Updated SCMD_PARDON which had some flag handling problems
+	  after 128 bit conversion. Both thanks to Nate Winters!
+        2/07/04 
+	- Update to act.item.c for number of hands usage. Thank to Ken Ray! 
+        2/04/04 
+ 	- Update to interpreter.c for a CONFIG_FROZEN_START problem
+	  found by Lump. Thanks!
+	- Update to mobact.c for a mob helper flag problem found by
+	  Ken Ray.
+        2/01/04 
+        - Changed AFF_PARALISE to AFF_PARALYZE.
+          Thanks to Rumble (rumble@builderacademy.net)!
+	- Seems to be something wrong with the way do_get is being called
+	  from mobile_activity, and it is truncating the keyword list.
+	  I have changed it to perform_get_from_room pending investigation.
+	  Thanks to cunning (scotty1@budweiser.com) for reporting this!
+        1/31/04 (release)
+	- Happy 1st Birthday to the CWG Project! Thanks to everyone who
+	  has helped bring us this far!
+        1/28/04 
+	- Changed to weapon weight allowance in constants.c in str_app.
+	  A player can now wield a weapon which is 10% of his max weight
+	  allowance. 
+        1/25/04 
+	- Upgraded ASCII Player Files from 2.1 to 2.2.0.
+	- Removed SKILL_WP_SWORD_LONG from CLASS_THIEF.
+	- Removed ITEM_KEY from getting dropped in Crash_is_unrentable.
+        1/22/04 
+	- Added MATERIAL_EARTH.
+	- Update to mobile_activity. When mobs would pick up money objects
+	  from the room, they were staying objects in their inventory.
+        1/16/04 
+	- Corrected bug in redit.c which would cause newly created SW exits
+	  to crash the game. Thanks to sirhoagy!
+	- Added Ken Ray's updated autoexit code. This also allows cedit
+	  compatible toggle for displaying closed doors in autoexit.
+	  Thanks Ken!
+        1/15/04 
+	- Corrected bug in do_break and do_fix which could crash the game.
+	  Thanks to firebird_223!
+	- Fixed a bug in enchant weapon spell which allowed only a +1 TOHIT
+	  and +1 TODAMAGE regardless of caster level.
+        1/14/04 
+  	- Changed do_wake so you default to POS_STANDING instead of POS_SITTING
+	  which is just a little annoying.
+	- Updated perform_immort_vis to account for 128 bit flag usage.
+	- Removed SKILL_WP_WHIP from CLASS_MAGIC_USER as all whip items
+	  in the game are !MAGE anyway.
+	- Fixed another problem in appear() which was not removing the
+	  AFF_HIDE flag during combat.
+        1/12/04 
+	- Added item_check() and is_better() functions for mobs when they pick 
+	  up equipment. This allows them to use better equipment they obtain. 
+	  Works for weapons and armor both! Watch out!
+	- Set NUM_AFF_FLAGS to 27 in oasis.h
+        1/4/04 
+	- Added AUTOSPLIT code to allow gold splitting among group members.
+        12/31/03 (release)
+        - Happy New Year!
+	12/28/03 
+	- Increased NUM_APPLIES in oasis.h from 25 to 27.
+	- Updated word of recall spell to make is cedit compliant.
+	12/27/03 
+	- Replaced the easycolor 2.2 system with Welcor's manual_color update
+	  for 3.1. This fixes a nasty little buffer overflow problem which
+	  can crash the game.
+	12/24/03 
+	- Added new version of do_auto_exits and search_in_direction.
+	  Thanks to Ken Ray.
+	12/15/03 
+	- Added patch to control mobs fighting mobs via cedit. 
+	  Thanks to Ken Ray.
+	12/09/03 
+	- Fixed minor bug in the extra directions where SW thought it was NE.
+	12/08/03 
+	- Added a newline to channel commands in do_gen_comm.
+	12/06/03 
+	- Update to oedit_save_to_disk in oedit.c to correctly save to disk 
+	  when you leave oedit.
+	- Update to prevent extradesc duplication in db.c and objsave.c
+	  Thanks to Fnord (fnord@cosanostra.net)
+	12/01/03 
+	- Update to class_ok_race, Half Orc was in the wrong place in the array.
+	- Updated material_names so they are all lower case.
+	11/30/03 (release)
+	- Added Ken's fixes for portal/vehice code to support followers.
+	- Work on do_say in act.comm.c to clear up some strange behaviors.
+	11/29/03
+	- Added NPC check into do_say code which could log errors during 
+	  certain conditions. 
+	- Moved SKILL_TURNING and SKILL_DISARM defines before the SKILL_WP
+ 	  series of defines. This creates more room to add additional SKILL_WP
+	  slots.
+	- Added code to mobact.c in mobile_activity so CLASS_THIEF mobs will
+	  try to steal gold from people WITHOUT the need for them to have
+	  a special procedure assigned.
+	- Some changes to Crash_load_xapobjs in objsave.c to prevent
+	  evil infinite loops when it can't find an object in the obj files.
+	11/28/03
+	- Added back in a bunch of RECEPTIONIST MOBS at various Inns around
+	  the world. This is in support of turning RENT ON by DEFAULT.
+	- Changed oedit message for WEAPON SKILL value.
+	11/27/03
+	- Added some more message to do_score for when players are affected 
+	  by various spells/affects.
+	- Changed the ammount of hit points gained per level by each class
+	  in advance_level in class.c to be in line with D20 rules.
+	- Fixed a nasty little bug in the appear code in fight.c which was
+	  not removing AFF_INVISIBILITY from spell casters when they started
+	  fighting.
+	11/26/03
+	- In the function damage in fight.c, I removed code which gave the
+	  player EXP for the damage they deal.
+	11/25/03
+	- Replaced (gate_guard) series spec_procs with dg_scripts that perform
+ 	  the same function.
+	11/22/03
+	- Fixed bug in do_say that repeated the text for each player in 
+	  the room.
+	11/21/03
+	- Update to zedit to allow manipulation of the percent loading chance.
+	11/17/03
+	- Update to do_force in act.wizard.c to remove unneeded do_sstat_room.
+	11/16/03
+	- Added in class skill/spell assignments (including weapon skills!).
+	- Also starting thief skills are modified by race choice.
+	- NPCs are now assigned a mana pool in db.c. This is in preperation
+	  for NPC spellcasters to behave like PC spellcasters.
+	- Update in reset_zone in db.c so the zone command 'P' works.
+	- Change in mail.c so the Midgaard Mail System became the CWG
+	  Mail System.
+	- Many changes to magic.c so that spell damage (and healing) were
+	  in line with spells listed under the D20 rules.
+	- Began changes to do_cast so NPCs can enter the magic system at the
+	  same place as PCs.
+	- Update to do_color in act.informative.c per Ken Ray's suggestions.
+	11/15/03
+	- Removed leftover debug message from dg_mobcmd.c
+	- Removed duplicate code in zedit.c related to who can do zone edits.
+	11/13/03
+	- Changes to oedit.c for Perm Affects on objects. Some left over
+	  bad patch + 128 Bit code conversion was causing some problems.
+	11/12/03
+	- Changes to the object saving throw tables, so that adding new
+	  MATERIAL TYPES isn't a big pain.
+	- Update in interpreter.c for the roomflags command.
+	- Update in races.c because some of the text values were out of sync
+	  with the list in structs.h. Also update for general readability in
+	  the whole file.
+	- Update to do_start in class.c so new players start with 3D6 * 10 gold.
+	- Changed the way damage to an object was calculated in damage_object
+	  in fight.c
+	11/11/03
+	- Added MATERIAL_ENERGY, MATERIAL_HEMP, and MATERIAL_CRYSTAL.
+	- Added fix to oedit for MATERIAL TYPES so that you could only
+	  input valid numbers for a MATERIAL TYPE.
+	11/09/03
+	- Added code to use the action descriptions of eat and drink items.
+	- Corrected logic in object get code which was out of order.
+	- Added a bit that lets you try to look inside of an extra description.
+	  All thanks to Ken Ray!
+	11/07/03
+	- Removed SKILL_WP_CLUB, SKILL_WP_MACE should work in all cases.
+	- Added MATERIAL_GRANITE.
+	- Moved SPELL_IDENTIFY from skill number 201 to 56 so it could be
+	  accessable under oedit. It should also now be able to assign via
+	  class.c as a castable spell for players.
+	- Increased MAX_SPELLS to 57 so all newer spells which have been 
+	  added are accessable under oedit.
+	- Changed apply_ac so that any piece of worn armor only gives it's
+	  value0 value to the players AC.
+        11/01/03
+	- Really fixed the problem with message boards.
+        - I have started making code changes to import the core game world
+          from my old MUD project, The Eternal Empire. This will replace the
+          stock CircleMUD zones which are distrubuted with this bundle.
+	- Changed all the start_room values in config.c
+	- Fix to read_mobile in db.c which was causing mobs to be
+	  assigned triggers twice.
+	- Several changes in oedit.c to make sure object edits correctly
+	  jump to object hit points.
+        - Added the room flag UNDERGROUND. This flag has no affect at this time.
+        - Added the mob flag NO_KILL. Changes to damage in fight.c and do_steal
+	  in act.other.c should prevent flagged mobs from being engaged 
+	  offensively.
+        - Added the affected flags FLYING, WATERB, ANGELIC, ETHEREAL, and
+          MAGICONLY. These are cosmetic additions only. Code to support them
+	  will be in a future release.
+        - Removed castle.c from the code completely.
+        - Added the following spec_procs: lyrzaxyn, azimer, dziak, cleric_ao,
+          cleric_marduk, gate_guard, gate_guard2, gate_guard3, gate_guard4,
+          gate_guard5.
+        - Changed the magic_user spec_proc quite a bit.
+        - Added a bunch of ASSIGNMOB calls in support of different MOB base.
+        - Added RACE_WARHOST and RACE_FAERIE.
+        - Added ITEM_ANTI_DRUID, ITEM_ANTI_BARD, ITEM_ANTI_RANGER,
+          ITEM_ANTI_PALADIN, ITEM_ANTI_MONK, ITEM_ANTI_BARBARIAN, and 
+	  ITEM_ANTI_SORCERER in support of different OBJ base. These classes
+          will be forthcoming.
+	10/31/03 (release)
+	- Made changes to diag_obj_to_char and diag_char_to_char suggested
+	  by Brandon (crio49@hotmail.com).
+	- Made changes to display menus suggested also by
+	  Brandon (crio49@hotmail.com).
+	- Corrected many typos in the added races.hlp file thanks to
+	  Adam Scriven (yahoo@lore.com).
+	- Added a series of patches submitted to me by Ken Ray. They are
+	  extra-exits, patch for secret door handeling, see-light patch, and
+	  a look-object patch.
+	- Changed calls to run_wizlist in do_advance so that the wizlist
+	  would get correctly updated on demotion.
+	10/22/03 
+	- Fix to boards.c from a bad patch. Boards should work again.
+	- Fix to fountain objects which were set to have unlimited capacity.
+	10/21/03 
+	- I realized after I released this that I forgot to update the string 
+	  for Oasis in the patch_list in constants.c No big deal, the 
+	  OASIS_VERSION string is correct.
+	10/20/03 (release)
+	- Added in RACE/CLASS help menus to new character creation.
+	- Added help file called races.hlp to lib/text/help.
+	- Added help file called oasis.hlp to lib/test/help.
+	10/17/03 (pl5)
+	- Patched in Oasis 2.0.6
+	- Made an update to diag_char_to_char and diag_obj_to_char which 
+	  hopefully will stop it from crashing under MS.
+	- Update to do_simple_move that shows WHERE someone arrives from when
+	  they enter a room. IE: Zizazat arrives from the north.
+	- Ability to toggle object and mob stacking added to cedit.
+	- Some cosmetic changes to class and race selection menus.
+	- Changed several fountain objects to be unlimited in the number of
+	  drink units they contained, rather than just a very large number :)
+	10/04/03 (pl4)
+	- Patched in updated vehicle code (and documentation) from Ken Ray!
+	- Added break and fix commands so IMMORTALS can break and fix items at 
+	  will. Thanks to Tape Worm <crio49@hotmail.com> for the suggestion!
+	- Fixed oedit problems related to EXTRA bits manipulation.
+	- Increased NUM_ITEM_FLAGS to the correct number, 25.
+	- Increased NUM_ITEM_WEARS to the correct number, 19.
+	- Added invalid_class and invalid_race defines in handler.h
+	- Fix for slist formatting. Thanks Ken!
+	- Forgot a minor update that Ken had sent me to use improved-edit for
+	  board and mail messages. Thanks Ken!
+	9/28/03 (pl3)
+	- Fixed two problems related to renting when rent wasn't free. 1) After
+	  renting, character would return to the game at The Void (0). 2) When
+ 	  quitting the game (without renting) the characters items would be
+	  dropped to the room, but not removed from their inventory. This could
+	  very easily allow players to duplicate items.
+	- Another attempt to clean up some warnings for MS Visual Studio. 
+	  Changes to conf.h.win etc...
+	- A few changes in enter_player_game so they would use calls to the
+	  newly installed CONFIG_ defs used by CEDIT. 
+	- Fixes to redit.c for ROOM FLAGS.
+	- Increased NUM_ROOM_FLAGS on oasis.h. 
+	  Both submitted by Tom Brumbaugh <pbrumbaugh@nc.rr.com>
+	- Added final portals.pdf documentation to doc/ directory. 
+	  Thanks to Ken Ray <kenr86@hotmail.com>.
+	9/21/03 (pl2)
+	- Corrected lingering problem from assembly edit patch in assedit.c
+	  Submitted by Tom Brumbaugh <pbrumbaugh@nc.rr.com> and
+	  Tape Worm <crio49@hotmail.com>
+	- Changed strcasecmp calls to str_cmp calls in objsave.c and db.c
+ 	  based on a prior recommendation for MS Visual Studio
+	  from Tape Worm <crio49@hotmail.com>
+	- Added some (int) calls before the use of some strlen()calls in
+	  autowiz.c and act.com.c for better support under MS Visual Studio.
+	- Changed conf.h.win to explicitly define NEED_CLOSE_PROTO 
+	  for better support under MS Visual Studio.
+	- Missing race and class calls to genmob.c so any mob file rewritten
+	  would not load on reboot. 
+	  Submitted by Tom Brumbaugh <pbrumbaugh@nc.rr.com>
+	9/21/03 (pl1)
+	- Set SPEAKING(ch) == SKILL_LANG_COMMON to init_char in db.c
+	  This was causing the first new IMP to speak gibberish that
+	  no one could understand. Additional cleanup of list_languages
+	  submitted by Ken Ray <kenr86@hotmail.com>.
+	- Several things were missing from MEDIT. Race/Class manipulation
+	  as well as 128 bit support for MOB and AFF flags.
+	9/20/03 (beta release)
+	- Finally completed the addition of Oasis 2.0.5 as well as 
+	  DG Scripts 0.99pl11!
+	- Added objstacking patch. Entry in config.c controls weather objs
+	  will be stacked or not. 
+        - Minor fix to allow players to see ITEM_LIGHT objects even in a dark
+          room, or inventory.
+	  Thanks to Ken Ray <kenr86@hotmail.com>
+	9/17/03
+	- Added mobstacking patch. Entry in config.c controls weather mobs
+	  will be stacked or not. 
+	  Thanks to Ken Ray <kenr86@hotmail.com>
+	9/16/03
+	- Added Ken Ray's PATCHLIST patch. This is a patch for the version
+	  command that takes an argument (version full|complete) and will
+	  display a more detailed list of patches that have been installed.
+	9/13/03
+	- Changed the default PORT in config.c from 4000 to 5000. 
+	- Added updated portal code, for portal objects and spells. This
+	  is much better code than before. Thanks to Ken Ray for all his 
+	  work on it (and the documentation!)
+	8/11/03
+	- Changed a bug in the stock zone 60. 
+	  Thanks to Ken Ray <kenr86@hotmail.com>
+        8/09/03
+	- Moved affect_update_violence out of perform_violence back into
+	  heartbeat() where it should be. Thanks to Xkrylonx 
+	  <xkrylonx@yahoo.com>
+	7/19/03
+	- change to save_char related to problems with the copyover function.
+	  Thanks to John Feltz <john@aginformation.com>
+	6/29/03 (release)
+	- updates to objsave.c so that AUTOEQ will work with newly added EQ
+	  positions on 6/9.
+	6/18/03
+	- replaced all ch->in_room calls with IN_ROOM(ch) for general
+	  cleanliness.
+	6/16/03
+	- created additional affect_update_violence system so you can create
+	  spells which last only for PULSE_VIOLENCE (2 seconds) rather than 
+	  a standard MUD tick (75 seconds).
+	- added SPELL_PARALIZE which demonstrates the new affect_update_violence
+	  system. This spell is NOT complete, as it does NOT prevent the
+	  paralyzed target from moving or using skills etc...
+	- added SPELL_CAUSE_LIGHT which does 1-8 points of damage.
+	- added SPELL_CAUSE_CRITIC which does 3-24 points of damage.
+	6/12/03
+	- fixed typo related to the addition of SKILL_DISARM in spell_parser.c
+	- added AFF_UNDEAD so undead mobs (or players) can be correctly      
+  	  flagged as such.
+	- added SKILL_TURNING which can be used by CLERICs to turn (or 
+	  possibly destroy) AFF_UNDEAD mobs (or players).
+	- added APPLY_TURN_LEVEL so an object could give a player a bonus
+	  to turning undead (like a special Holy Symbol, etc).
+	6/11/03
+	- added EX_SECRET to the door flags so a door can be flagged hidden.
+	- added search command which allows you to search for hidden exits.
+	- changed do_simple_move so players couldn't find hidden exits by
+	  trying to walk into them.
+	- some minor changes to redit in the way it interacts with door flags.
+	6/09/03
+	- added 4 new equipment positions: BACKPACK, EARS (x2), WINGS and
+	  MASK. 
+	5/31/03
+	- added SKILL_DISARM based on code posted to Circle Mailing List
+	  by <eglamkowski@angelfire.com>.
+	- bugfix for enchant_weapon spell, as posted to Circle Mailing List
+	  by <eglamkowski@angelfire.com>.
+	- added a check for ROOM_PEACEFUL in do_kick. There is also a check
+	  in damage() to prevent this, but checking at the start of the skill
+	  is more consistent. As posted to Circle Mailing List by
+	  <eglamkowski@angelfire.com>.
+	- bugfix for locate_object spell, as posted to Circle Mailing List by
+	  <eglamkowski@angelfire.com>.
+	5/26/03 (release)
+	- added percentage loading code for zone reset commands. This way you
+	  can assign percentages to zone reset commands so they can happen
+	  more randomly. The default value for all zone commands is '0' which
+  	  means they will ALWAYS load. If you plan to patch this code in, make 
+	  sure you check the posts on the cwg_mailing list because you need to 
+	  do some kludging.
+	- added CWG_VERSION in structs.h. This shows up when you are booting
+	  the game, after the circle_version and DG_SCRIPTS_VERSION tags
+	  and also in game using the version command.
+	5/18/03
+	- added portal_object to config.c so you can control the object
+	  number of the portal object used by spell_portal. 
+	  An example of a portal object:
+	  #2
+    	  portal~
+	  a glowing portal~
+	  A glowing portal hovers here forming a gateway to another place.~
+	  ~
+	  28 0 0 0 0 0 0 0 0 0 0 0 0
+	  0 0 0 0 0 0 0 7
+	  0 0 0 0
+	-
+	- added spell_portal. When cast, it creates two portal objects
+	  which can be used to get from point a to point b. These objects
+	  are set with a timer based on the level of the caster. 
+	- added ITEM_PORTAL. By using the enter command you can use the
+	  portal to transport whatever vnum OBJ_VAL(0) is set to. Portal
+	  objects can use the TIMER to expire.
+	- dg_scripts update to calls in spell_recall and spell_teleport.
+	5/17/03
+	- Changes to oedit so object material types don't get reset to 0
+	  when you edit object values.
+	5/12/03
+	- Fix to the whois code.
+	5/11/03 (release)
+	- zero level mobs are set to level 1 in db.c.
+	- OLC permissions for IMMs are saved/loaded to pfile.
+	- Race is now a factor in points regeneration, previously only
+	  age was a factor. This is problematic for longer lived races.
+	- The pc_race_types array was incorrect based on what is defined
+	  in structs.h. In turn, many mobs were incorrect as well. Included
+	  is a updated set of mob files.

@@ -1,0 +1,5 @@
+#!/bin/sh
+mkdir ../lib/world/trg
+mv 0.trg ../lib/world/trg
+mv index ../lib/world/trg
+mv contexthelp ../lib/text

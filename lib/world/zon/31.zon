@@ -1,0 +1,32 @@
+#31
+None.~
+Outside Kortaal~
+3100 3199 24 2
+O 0 3034 5 3110 0 	(a banker)
+M 0 3106 1 3110 0 	(Laele, the Receptionist)
+D 0 3142 3 2 0 	(Outside Calantar's Gate)
+D 0 3142 0 1 0 	(Outside Calantar's Gate)
+D 0 3101 1 2 0 	(Outside Kortaal)
+D 0 3109 2 2 0 	(Footbridge over the River Rowanmantle)
+M 0 3105 20 3127 0 	(a bandit)
+E 1 1303 200 16 0 	(a dagger)
+M 0 3105 20 3127 0 	(a bandit)
+E 1 1303 200 16 0 	(a dagger)
+M 0 3101 20 3114 0 	(an outlaw)
+E 1 1303 200 16 0 	(a dagger)
+M 0 3101 20 3140 0 	(an outlaw)
+E 1 1303 200 16 0 	(a dagger)
+M 0 3104 10 3141 0 	(the goblin)
+M 0 3104 10 3141 0 	(the goblin)
+M 0 3105 20 3101 0 	(a bandit)
+E 1 1305 200 16 0 	(a saber)
+M 0 3105 20 3106 0 	(a bandit)
+E 1 1305 200 16 0 	(a saber)
+M 0 3101 20 3106 0 	(an outlaw)
+E 1 1304 200 16 0 	(a rapier)
+M 0 3101 20 3108 0 	(an outlaw)
+E 1 1304 200 16 0 	(a rapier)
+M 0 3019 1 3144 0 	(Elaerue Estspirit)
+E 1 1305 200 16 0 	(a saber)
+S
+$

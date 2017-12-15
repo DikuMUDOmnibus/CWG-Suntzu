@@ -1,0 +1,1866 @@
+#3200
+Lake of Dragons~
+   You are upon a large lake.  To the north you see the capital of Toran,
+Kortaal.
+~
+32 q 0 0 0 6
+D0
+You see the Port of Kortaal.
+~
+~
+0 -1 3049
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3277
+D2
+~
+~
+0 -1 3202
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3276
+S
+#3201
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3276
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3202
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3206
+S
+#3202
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3200
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3203
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3207
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3201
+S
+#3203
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 qs 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3277
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3204
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3208
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3202
+S
+#3204
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 s 0 0 0 7
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3209
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3203
+S
+#3205
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3206
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3211
+S
+#3206
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3201
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3207
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3212
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3205
+S
+#3207
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3202
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3208
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3213
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3206
+S
+#3208
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 qs 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3203
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3209
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3214
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3207
+S
+#3209
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 s 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3204
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3210
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3215
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3208
+S
+#3210
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 s 0 0 0 7
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3216
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3209
+S
+#3211
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3212
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3219
+S
+#3212
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3206
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3213
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3220
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3211
+S
+#3213
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3207
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3214
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3221
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3212
+S
+#3214
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3208
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3215
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3222
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3213
+S
+#3215
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3209
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3216
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3223
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3214
+S
+#3216
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 s 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3210
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3217
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3224
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3215
+S
+#3217
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3225
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3216
+S
+#3218
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3219
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3228
+S
+#3219
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3211
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3220
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3229
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3218
+S
+#3220
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3212
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3221
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3230
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3219
+S
+#3221
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3213
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3222
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3220
+S
+#3222
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3214
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3223
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3232
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3221
+S
+#3223
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3215
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3224
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3233
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3222
+S
+#3224
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 s 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3216
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3225
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3234
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3223
+S
+#3225
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3217
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3226
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3235
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3224
+S
+#3226
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3236
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3225
+S
+#3227
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3228
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3243
+S
+#3228
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3218
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3229
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3244
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3227
+S
+#3229
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3219
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3230
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3239
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3228
+S
+#3230
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3220
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3229
+S
+#3231
+Lost on the Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3278
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3231
+S
+#3232
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3222
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3233
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3248
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3231
+S
+#3233
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3223
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3234
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3244
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3232
+S
+#3234
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3224
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3235
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3250
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3233
+S
+#3235
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3225
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3236
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3251
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3234
+S
+#3236
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3226
+D1
+~
+~
+0 -1 3237
+D2
+~
+~
+0 -1 3252
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3235
+S
+#3237
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3238
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3243
+S
+#3238
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3239
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3237
+S
+#3239
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3240
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3238
+S
+#3240
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3241
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3239
+S
+#3241
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.  There is a buoy here.
+~
+32 0 0 0 0 7
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3240
+E
+buoy~
+ The buoy has a sign that reads: No Exit here yet.  -ZD
+~
+S
+#3242
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3243
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3254
+S
+#3243
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3227
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3244
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3255
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3242
+S
+#3244
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3228
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3245
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3256
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3243
+S
+#3245
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3229
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3246
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3257
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3244
+S
+#3246
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3230
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3247
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3258
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3245
+S
+#3247
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3248
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3259
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3246
+S
+#3248
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3232
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3249
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3260
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3247
+S
+#3249
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3233
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3250
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3261
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3248
+S
+#3250
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3234
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3251
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3262
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3249
+S
+#3251
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3235
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3252
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3263
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3250
+S
+#3252
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3236
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3251
+S
+#3253
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3254
+S
+#3254
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3242
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3255
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3265
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3253
+S
+#3255
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3243
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3256
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3267
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3254
+S
+#3256
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3244
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3257
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3267
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3255
+S
+#3257
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3245
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3258
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3268
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3256
+S
+#3258
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3246
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3259
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3269
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3257
+S
+#3259
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3257
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3260
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3258
+S
+#3260
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3248
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3261
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3270
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3259
+S
+#3261
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3249
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3262
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3271
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3260
+S
+#3262
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3250
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3263
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3272
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3261
+S
+#3263
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3215
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3262
+S
+#3264
+Lake of Dragons~
+   You are upon a large lake.  To the south you see the entrance to Ilipur.
+There is a large buoy here.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3265
+E
+buoy~
+There is a sign on the bouy that reads: Illipur, in delay.
+                                        -- Ziz
+~
+S
+#3265
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3254
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3266
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3264
+S
+#3266
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3255
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3267
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3265
+S
+#3267
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3256
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3268
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3266
+S
+#3268
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3257
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3269
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3274
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3267
+S
+#3269
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3258
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3268
+S
+#3270
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3260
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3271
+S
+#3271
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3261
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3272
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3275
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3270
+S
+#3272
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3262
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3271
+S
+#3273
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.  You see a buoy here.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3274
+E
+buoy~
+There is a sign on the bouy that reads: Pros, in delay.
+                                        -- Ziz
+~
+S
+#3274
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3268
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3273
+S
+#3275
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything, except to the 
+south where you can see the city of Maaken.
+~
+32 q 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3271
+D2
+~
+~
+0 -1 11000
+S
+#3276
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3200
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3201
+S
+#3277
+Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 qs 0 0 0 7
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3203
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3200
+S
+#3278
+Lost on the Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3279
+S
+#3279
+Lost on the Lake of Dragons~
+   You are upon a large lake.  You can't seem to see anything but water in all
+directions.
+~
+32 0 0 0 0 7
+D0
+More Lake of Dragons.
+~
+~
+0 -1 3227
+D1
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D2
+More Lake of Dragons.
+~
+~
+0 -1 3231
+D3
+More Lake of Dragons.
+~
+~
+0 -1 3221
+S
+$~

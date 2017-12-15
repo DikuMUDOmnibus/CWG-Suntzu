@@ -1,0 +1,362 @@
+#3400
+Under the Lake of Dragons~
+   Slowly you decend under the Lake of Dragons. Legends of bygone sea
+marniers tell of sunken ships and treasures under the lake. The hue of the
+water makes it difficult to find your way.
+~
+34 fg 0 0 0 9
+D4
+~
+~
+0 -1 3213
+D5
+~
+~
+0 -1 3401
+S
+#3401
+Under the Lake of Dragons~
+   The water is a deep shade of blue, and the sunlight becomes scarce as
+you decend deeper underwater.
+~
+34 fg 0 0 0 9
+D1
+~
+~
+0 -1 3406
+D3
+~
+~
+0 -1 3404
+D4
+~
+~
+0 -1 3400
+D5
+~
+~
+0 -1 3402
+S
+#3402
+Under the Lake of Dragons~
+   The floor rises up to meet you here, and jagged coral support colorful
+underwater life forms. There is some sand on the bottom, and a giant kelp
+bed grows. 
+~
+34 fg 0 0 0 9
+D4
+~
+~
+0 -1 3401
+S
+#3404
+Under the Lake of Dragons~
+   The water is a deep shade of blue, and the sunlight becomes scarce as
+you decend deeper underwater.
+~
+34 fg 0 0 0 9
+D1
+~
+~
+0 -1 3401
+D5
+~
+~
+0 -1 3405
+S
+#3405
+Under the Lake of Dragons~
+   The floor rises up to meet you here, and jagged coral support colorful
+underwater life forms. There is some sand on the bottom, and a giant kelp
+bed grows.
+~
+34 fg 0 0 0 9
+D4
+~
+~
+0 -1 3404
+S
+#3406
+Under the Lake of Dragons~
+   A massive cliff decends further to the sea floor below. The sunlight
+becomes much less, and some of the fish glow of their own accord.
+~
+34 fg 0 0 0 9
+D3
+~
+~
+0 -1 3401
+D5
+~
+~
+0 -1 3407
+S
+#3407
+Under the Lake of Dragons~
+   The bottom is very near, and it is difficult to make much out. Kelp and
+other sea plants grow up from the bottom. 
+~
+34 fg 0 0 0 9
+D0
+~
+~
+0 -1 3408
+D4
+~
+~
+0 -1 3406
+S
+#3408
+Under the Lake of Dragons~
+   The bottom is very near, and it is difficult to make much out. Kelp and
+other sea plants grow up from the bottom. Sand covers the bottom and it
+looks like fragments of ship wreckage as well.
+~
+34 fg 0 0 0 9
+D0
+~
+~
+0 -1 3409
+D2
+~
+~
+0 -1 3407
+D5
+~
+~
+0 -1 3415
+S
+#3409
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D0
+~
+~
+0 -1 3412
+D2
+~
+~
+0 -1 3408
+D5
+~
+~
+0 -1 3410
+S
+#3410
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D4
+~
+~
+0 -1 3409
+D5
+~
+~
+0 -1 3411
+S
+#3411
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D1
+~
+secret door east e~
+3 5800 5800
+D4
+~
+~
+0 -1 3410
+S
+#3412
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D0
+~
+~
+0 0 3413
+D2
+~
+~
+0 0 3409
+S
+#3413
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D0
+~
+~
+0 -1 3416
+D2
+~
+~
+0 -1 3412
+D5
+~
+~
+0 -1 3414
+S
+#3414
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D4
+~
+~
+0 -1 3413
+S
+#3415
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D4
+~
+~
+0 -1 3408
+S
+#3416
+Under the Lake of Dragons~
+Nothing.
+~
+34 fg 0 0 0 9
+D2
+~
+~
+0 -1 3413
+D4
+~
+~
+0 -1 3417
+S
+#3417
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D1
+~
+~
+0 -1 3418
+D3
+~
+~
+0 -1 3421
+D5
+~
+~
+0 -1 3416
+S
+#3418
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D3
+~
+~
+0 -1 3417
+D4
+~
+~
+0 -1 3420
+D5
+~
+~
+0 -1 3419
+S
+#3419
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D4
+~
+~
+0 -1 3418
+S
+#3420
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D4
+~
+~
+0 -1 3249
+D5
+~
+~
+0 -1 3418
+S
+#3421
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D1
+~
+~
+0 -1 3417
+D3
+~
+~
+0 -1 3422
+S
+#3422
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D1
+~
+~
+0 -1 3421
+D3
+~
+~
+0 -1 3423
+S
+#3423
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D1
+~
+~
+0 -1 3422
+D3
+~
+~
+0 -1 3424
+D4
+~
+~
+0 -1 3425
+S
+#3424
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D1
+~
+~
+0 -1 3423
+S
+#3425
+Under the Lake of Dragons~
+Empty room.~
+34 fg 0 0 0 8
+D4
+~
+~
+0 -1 3249
+D5
+~
+~
+0 -1 3423
+S
+$~

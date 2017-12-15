@@ -1,0 +1,78 @@
+#600
+small coil pit viper~
+a pit viper~
+Wrapped in a coil, a small viper waits to strike.
+~
+Light brown, and basking in the sun, the viper appears to look directly into
+your soul.
+~
+abdef 0 0 0 l 0 0 0 0 E
+2 20 2 2d10+4 1d4+0
+0 144 17 3
+8 8 0
+E
+#601
+statue amber golem~
+an amber golem~
+An animated amber statue is moving around here.
+~
+Standing over 7' tall, the statue of amber looks threatening.
+~
+bdf 0 0 0 el 0 0 0 0 E
+10 20 6 10d10+20 2d6+0
+0 2400 9 3
+8 8 0
+E
+#602
+mummy undead~
+a mummy~
+A wrapped skeleton moans softly, and stumbles around the room.
+~
+Wrapped in ancient bandages, the skeleton smells of dust, dirt and things 
+best left unsaid.
+~
+bdj 0 0 0 r 0 0 0 -1000 E
+5 20 3 5d10+10 1d12+0
+0 324 0 1
+8 8 0
+E
+#603
+abatu nagpa vulture-man~
+Abatu the Nagpa~
+A strange half human, half vulture stares at you with empty eyes.
+~
+Abatu looks like a dried, withered human with the head of a vulture. He is
+dressed in deep red robes, this bizarre crossbreed causes your skin to shiver.
+~
+abdj 0 0 0 delq 0 0 0 -1000 E
+9 20 3 9d10+18 1d8+0
+0 1680 9 0
+8 8 1
+E
+#604
+tabi monkey winged~
+the tabi~
+A small winged animal hovers off the ground here.
+~
+The size of a small house cat, their bodies are covered with a long golden fur
+while their wings are leathery membranes, like a bat's.
+~
+bd 0 0 0 elqtx 0 0 0 -1000 E
+5 20 6 5d10+10 1d4+0
+0 324 8 2
+9 9 1
+E
+#605
+scorpion man scorpion-man~
+the scorpion-man~
+A large scorpion-man overlooks the room.
+~
+A magical combination of a scorpion and a man, the creature looks around the
+room with a savage glare in it's eyes.
+~
+bdf 0 0 0 el 0 0 0 -1000 E
+12 20 5 12d10+24 2d6+0
+0 4800 9 1
+8 8 1
+E
+$

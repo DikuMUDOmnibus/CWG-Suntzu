@@ -1,0 +1,794 @@
+#3101
+Outside Kortaal~
+   You are on the wrong side of Kortaal's massive city walls. The western gate
+lies slightly north of here. You see a small drainage grate here.
+~
+31 0 0 0 0 1
+D0
+Outside the wall of Kortaal.
+~
+~
+0 -1 3102
+D1
+A small drainage pipe.
+~
+grate east e~
+1 3133 3047
+S
+#3102
+Outside Kortaal, near the Gate~
+   To the east are the massive walls of Kortaal, captial city of Toran. Just
+to the north you see the Western Gate.
+~
+31 0 0 0 0 1
+D0
+You see the Western Gate.
+~
+~
+0 -1 3052
+D2
+You see a path that runs outside the wall.
+~
+~
+0 -1 3101
+S
+#3103
+North of the Gate~
+   To your east lie the walls of Kortaal. You are following a worn path around
+the outside of the walls. To the south is the western gate of Kortaal.
+~
+31 0 0 0 0 1
+D0
+You see the path around the city.
+~
+~
+0 -1 3104
+D2
+The small path leads south.
+~
+~
+0 -1 3052
+S
+#3104
+West end of path~
+   You are at the western end of Kortaal, following a worn path around the
+city's perimiter. It runs north and south.
+~
+31 0 0 0 0 1
+D0
+The path continues north.
+~
+~
+0 -1 3105
+D2
+The path continues south.
+~
+~
+0 -1 3103
+S
+#3105
+North and west outside Kortaal~
+   You are standing on the outside of Kortaal's walls. A small path runs north-
+south here.
+~
+31 0 0 0 0 1
+D0
+You see more of the path around Kortaal.
+~
+~
+0 -1 3106
+D2
+You see the path around Kortaal.
+~
+~
+0 -1 3104
+S
+#3106
+Northwestern corner outside the wall~
+   You are in the northwestern corner following a path around the outside
+of Kortaal. To the east you can see the northwestern gate.
+~
+31 0 0 0 0 0
+D1
+You see the path, near the Northwestern gate.
+~
+~
+0 -1 3107
+D2
+You see the path.
+~
+~
+0 -1 3105
+S
+#3107
+Near the Northwestern Gate~
+   You are west of the northwestern gate of Kortaal. Far to the east you can
+see the Nightgate Inn. The path now runs east-west.
+~
+31 0 0 0 0 1
+D1
+~
+~
+0 -1 3060
+D3
+~
+~
+0 -1 3106
+S
+#3108
+East of the Gate~
+   You are standing east of the northwestern gate of Kortaal. To the east 
+is a footbridge which crosses the River Rowanmantle.
+~
+31 0 0 0 0 1
+D1
+You see a footbridge.
+~
+~
+0 -1 3109
+D3
+You see the path.
+~
+~
+0 -1 3060
+S
+#3109
+Footbridge over the River Rowanmantle~
+   You are on a small footbridge over the River Rowanmantle. The path runs
+east-west, and you can see a small locked grate leading into the city.
+~
+31 0 0 0 0 1
+D1
+You see the northeastern gate of Kortaal.
+~
+~
+0 -1 3053
+D2
+You see the grate.
+~
+grate south s~
+1 3133 3094
+D3
+You see the path.
+~
+~
+0 -1 3108
+S
+#3110
+The Nightgate Inn~
+   You stand in the only Inn accessible near Kortaal when the gates are closed
+for the night. There are many other travelers here.
+~
+31 d 0 0 0 0
+D3
+You see a path north of a Gate of Kortaal.
+~
+~
+0 -1 3053
+S
+#3112
+Calantar's Way~
+   You are following Calantar's Way which leads, eventually, to Tekaro and
+Shadowdale far to the north. Across the Starwater river lies the small city
+of Tldo. To the south lies the massive gates of Kortaal.
+~
+31 0 0 0 0 2
+D0
+You see the road streaching north.
+~
+~
+0 -1 3113
+D2
+You see the city of Kortaal.
+~
+~
+0 -1 3053
+S
+#3113
+Southside of Bridge~
+   Standing on the southside of the bridge over Starwater river, you can see
+the town of Tldo just on the other side. To the north and west the forest 
+becomes thicker, and darker.
+~
+31 0 0 0 0 2
+D0
+You see the northside of the bridge.
+~
+~
+0 -1 3114
+D2
+You see a fair sized grassy plain.
+~
+~
+0 -1 3112
+E
+bridge~
+You see an ancient, stone bridge which has stood for hundreds of years.
+~
+S
+#3114
+Northside of Bridge~
+   Standing on the northside of the bridge over Starwater river, you can see
+the town of Tldo just to the north. To the south lies the jewel of the Empire,
+Kortaal.
+~
+31 0 0 0 0 2
+D0
+You see the town of Tldo.
+~
+~
+0 -1 11300
+D2
+You see the southside of the bridge.
+~
+~
+0 -1 3113
+E
+bridge~
+You see an ancient, stone bridge which has stood for hundreds of years.
+~
+S
+#3124
+The North Road~
+   You stand on a well traveled highway that leads to Kaon, Tekaro, and
+beyond to the north. To the south lies the small town of Tldo.  To the west
+you can see a dark, dense forest.
+~
+31 0 0 0 0 2
+D0
+You see the road.
+~
+~
+0 -1 3125
+D2
+The small town of Tldo.
+~
+~
+0 -1 11308
+S
+#3125
+Near the dark forest.~
+   The dark forest is closer now, just to the north you can see a trail
+heading into it, but it quickly is obscured by the thick trees. Also, on 
+the northern horizion you can see the beginings of another city. To the
+south lies Tldo.
+~
+31 0 0 0 0 2
+D0
+You see the road.
+~
+~
+0 -1 3126
+D2
+You near the town of Tldo.
+~
+~
+0 -1 3124
+S
+#3126
+An unused path~
+   To the west a disused path leads into the dark, thick forest. The road also
+continues north to Kaon. There is a small sign here.
+~
+31 0 0 0 0 2
+D0
+Some trees line both sides of the road.
+~
+~
+0 -1 3127
+D2
+More of the well traveled road.
+~
+~
+0 -1 3125
+D3
+Into the dark woods.
+~
+~
+0 -1 3519
+E
+sign~
+The sign reads: Beware all ye whom enter this acursed forest! Many evils lie
+                within! Goblinoids and winged serpents and worse!
+~
+S
+#3127
+Wooded Road~
+   The woods become very thick on both sides of the road here, just before the
+outskirts of Kaon. The perfect place for an ambush...
+~
+31 0 0 0 0 2
+D0
+The outskirts of Kaon.
+~
+~
+0 -1 11401
+D2
+A path into the forest.
+~
+~
+0 -1 3126
+S
+#3128
+Outskirts of Kaon~
+   You stand on the outskirts of Kaon, perched on the western edge of
+the Wyvernwater. On this end of town you can see several large manors 
+belonging to, you'd guess, minor nobility. To the west is a shop of some
+sort with a large 'Open' sign in the window.
+~
+31 0 0 0 0 2
+D0
+You see the center of town.
+~
+~
+0 -1 3129
+D2
+You see a wooded road.
+~
+~
+0 -1 3127
+D3
+A close and locked door.
+~
+door~
+1 -1 3130
+S
+#3129
+Center of Town~
+   All around you can see many small building and to the east, boats and
+the Wyvernwater. The road continues north and also branches west through
+the western part of the city, and eventually into the dark forest. There is
+a large stone statue here, which looks as if it has endured well over the
+years.
+~
+31 0 0 0 0 2
+D0
+The northern edge of Kaon.
+~
+~
+0 -1 3134
+D1
+You see the Wyvernwater.
+~
+~
+0 -1 3132
+D2
+You see the southern outskirts of Kaon.
+~
+~
+0 -1 3128
+D3
+Throught the residental section of Kaon.
+~
+~
+0 -1 3131
+E
+inscription base~
+The inscription reads: 'Chelnar Triumphant'
+~
+E
+statue~
+The statue depicts King Chelnar the III, who died nearly one hundred years ago,
+with a long sword raised aloft on the back of a rearing stallion. There
+is a small inscription at the base.
+~
+S
+#3130
+General Store~
+   This is a quaint little store in Kaon. The owner seems to have quite
+abit of various stuff laying about.
+~
+31 d 0 0 0 2
+D1
+The outskirts of town.
+~
+door~
+1 -1 3128
+S
+#3131
+The western end of Kaon~
+   After passing throught most of the residental section of Kaon, you now
+stand on the western end. Here you see many fields which supply food to the
+troops involved with the Nelven war, and Shaarian occupation. On the 
+otherside of the fields lies more of the dark forest. To the south is
+Redstone Manor, which is locked up and looks abandoned.
+~
+31 0 0 0 0 2
+D1
+The center of town.
+~
+~
+0 -1 3129
+D2
+~
+door~
+1 2527 3135
+D3
+The dark forest.
+~
+~
+0 -1 3513
+E
+manor wyvernspur redstone~
+The rather large, ancestorial, home of the Wyvernspur family.
+Called Redstone for it's color of unique stone used to build it.
+It is close for renovations.
+~
+S
+#3132
+The edge of the Wyvernwater~
+   To the east you can see the rather chilly looking water of Wyvernwater
+lake. Much of Kaon's livelyhood comes from fishing these waters. To
+the south you can see a large manor.
+~
+31 0 0 0 0 2
+D2
+A large manor.
+~
+~
+0 -1 3133
+D3
+The town center.
+~
+~
+0 -1 3129
+S
+#3133
+Before the Manor~
+   You stand before the now empty manor of the former ruler of Kaon, 
+Samtavan Sudacar. Once it was discoverd that he was orginially from Nelva
+he returned to his homeland with much haste. The manor has been sealed by
+physical and magical means.
+~
+31 0 0 0 0 2
+D0
+Near the Wyvernwater.
+~
+~
+0 -1 3132
+D2
+The closed manor of the last ruler of Kaon.
+~
+door~
+2 7001 3136
+S
+#3134
+Northern outskirts of Kaon~
+   You are almost out of the small town of Kaon, to the north begin more
+farmlands, which are pretty uninterstng. There is one large building to the
+west however.
+~
+31 0 0 0 0 2
+D0
+Farm lands.
+~
+~
+0 -1 3138
+D2
+The center of town.
+~
+~
+0 -1 3129
+D3
+A fair sized Inn, the Five Fine Fish.
+~
+~
+0 -1 3137
+S
+#3135
+Redstone~
+   You stand in the fire scorched ruins of Wyvernspur Manor. You can see a 
+spiral staircase decending into the darkness.
+~
+31 d 0 0 0 0
+D0
+The western edge of town.
+~
+door~
+1 2527 3131
+D5
+~
+~
+0 -1 2501
+S
+#3136
+High Towers~
+   You stand in the entryway of the manor of Samtavan Sudacar. It has
+been close for a number of years now, and the dust is thick. All of the
+windows have been coverd from the inside, and strange sigla have been 
+drawn all over. The place gives off a very evil aura. To the east you
+can see a fair sized library, and along the south wall is a door.
+~
+31 d 0 0 0 0
+D0
+Near the Wyvernwater.
+~
+door~
+2 7001 3133
+D1
+A library.
+~
+~
+0 -1 3146
+D2
+A closed door.
+~
+wooden~
+2 -1 3145
+E
+sigla~
+The sigla are slightly familiar to you...but you can't quite place them.
+~
+S
+#3137
+Five Fine Fish~
+   A fair sized Inn, you can smell the delicous aroma of fish being cooked
+in large numbers. Also, the smell of the house's special ale is quite strong.
+~
+31 d 0 0 0 0
+D1
+The north edge of town.
+~
+~
+0 -1 3134
+S
+#3138
+Farmlands~
+   You are passing through large farmlands along the northern highway that
+will take you to the crossroads of the Empire, Tekaro. The countryside is
+pretty unexciting.
+~
+31 0 0 0 0 2
+D0
+More farmland.
+~
+~
+0 -1 3139
+D2
+The northern edge of Kaon.
+~
+~
+0 -1 11411
+S
+#3139
+More Farmland~
+   More boring farmland. Far to the north you can see Tekaro on the horizon.
+~
+31 0 0 0 0 2
+D0
+Still more farmland.
+~
+~
+0 -1 3140
+D2
+Farmland.
+~
+~
+0 -1 3138
+S
+#3140
+Still more farmland~
+   What can I say? More non-descript farmland.
+~
+31 0 0 0 0 2
+D0
+Wooded road.
+~
+~
+0 -1 3141
+D2
+Farmland.
+~
+~
+0 -1 3139
+S
+#3141
+Wooded Road~
+   As you near Tekaro, you start to watch for highwaymen, robbers, and 
+deserters. The sudden woods make for good cover.
+~
+31 0 0 0 0 2
+D0
+More wooded road.
+~
+~
+0 -1 3142
+D2
+Some rolling farmlands.
+~
+~
+0 -1 3140
+S
+#3142
+Outside Calantar's Gate~
+   You are with reach of the city of Tekaro. It stands on the edge of the
+Empire, and is an important trading crossroads. Along the easten edge of
+the road there is thick tree cover. Just over a small hill to the west
+sets a fair sized military stronghold. 
+   Calantar's Gate beckons to the north.
+~
+31 0 0 0 0 2
+D0
+Calantar's Gate.
+~
+gate n north~
+1 12016 12035
+D2
+The wooded road.
+~
+~
+0 -1 3141
+D3
+~
+stronghold w west~
+1 1101 12051
+S
+#3143
+Entrance to the Forest~
+   You are just entering the forest of Toran. A well known and traveled
+path known as The Way of the Dragon leads north to Helin and Woeld.
+To the west lies the guild of the Rangers.
+~
+31 0 0 0 0 2
+D0
+The King's Forest.
+~
+~
+0 -1 6019
+D2
+Before the Horngate of Kortaal.
+~
+~
+0 -1 3060
+D3
+The Guild of the Ranger.
+~
+~
+0 -1 3144
+S
+#3144
+The Guild of the Rangers~
+   Here is a large practice area, surounded by woods on all sides, for the
+members of your guild.
+~
+31 0 0 0 0 2
+D1
+The edge of the forest.
+~
+~
+0 -1 3143
+S
+#3145
+Closed room in High Towers~
+   This is a closed up room in High Towers Manor.
+~
+31 d 0 0 0 0
+D0
+The enterance.
+~
+door~
+2 -1 3136
+S
+#3146
+A library in High Towers Manor~
+   This library is still filled with books! Most of them are covered in 
+thick dust, but it appers that someone is making use of a few of them.
+~
+31 d 0 0 0 0
+D3
+The enterance.
+~
+~
+0 -1 3136
+E
+books book~
+There are many books here, most of the written in Toranian. A few in 
+Nelven, and DaleSpeak, and a few the runic language of the Tsalari.
+~
+S
+#3151
+The Living Room~
+   You stand in the large, spacious living room of a citizen of Kortaal. The
+house as a whole is quite large, and looks expensive, perhaps the people who
+live here are minor nobles. The furniture is well constructed and practical,
+if slightly over priced. You see a couch, loveseat and a table with several
+chair. Along the north wall you see a large, marble fireplace, with a 
+carving of Ao's holy symbol resting atop it.
+~
+31 d 0 0 0 1
+D1
+You see the bedroom.
+~
+~
+0 -1 3152
+D3
+You see the Wall Road.
+~
+door~
+2 6026 3086
+S
+#3152
+The Bedroom~
+   You thought the living room was large! This bedroom looks as if it could 
+sleep ten or tweleve people without problem...provided there were more beds.
+There is only one bed here, a large, four poster bed with very expensive 
+looking sheets. There are several paintings on the walls. There is a doorway
+to the north, a walk-in closet to the east, and a doorway to the south.
+~
+31 d 0 0 0 1
+D0
+You see a nursery.
+~
+~
+0 -1 3153
+D1
+A walk-in closet.
+~
+door~
+1 -1 3154
+D2
+A small temple.
+~
+~
+0 -1 3155
+D3
+The living room.
+~
+~
+0 -1 3151
+S
+#3153
+The Nursery~
+   Here is a nursery, there is a crib along the north wall. There are many
+baby toys, and childrens cloths scattered about here...
+~
+31 d 0 0 0 1
+D2
+You see the Master Bedroom.
+~
+~
+0 -1 3152
+E
+toys toy~
+There are many baby toys laying around on the floor. Squeek, squeek. Neat
+huh?
+~
+S
+#3154
+A walk-in closet~
+   A large walk-in closet, bigger than most bedrooms you've seen. There is
+various junk scattered about.
+~
+31 d 0 0 0 1
+D3
+You see the Master Bedroom.
+~
+door~
+1 -1 3152
+S
+#3155
+A Shrine to Ao~
+   You stand in a very holy room. Along the south wall you see an alter to the
+High God, Ao. Along the walls there are various paintings and sketches. Some
+of them of Ao himself. There are also several maps of various parts of the
+Realms upon the walls.
+~
+31 d 0 0 0 1
+D0
+You see the Master Bedroom.
+~
+~
+0 -1 3152
+E
+painting paintings sketch sketches~
+They are of various deeds of Ao's in the past. Great battles, ending of plages
+and the like. A few even depict a man, perhaps Ao himself, wielding a mighty
+warhammer.
+~
+E
+map maps~
+The maps are covered in writting, most of which you don't understand. But it
+would appear that who ever owns these maps has a facination with mountains...
+~
+S
+$~

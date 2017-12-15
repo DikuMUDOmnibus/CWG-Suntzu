@@ -1,0 +1,834 @@
+#7000
+Entrance to the sewers of Kortaal~
+You can think of at least three other places you'd rather be right now other 
+than the smelly, dank sewers of Kortaal. However looing around you can see
+large, stone tunnels leading in all directions. There is a sign here, and
+a manhole cover in the ceiling.
+~
+70 ad 0 0 0 1
+D0
+You see a dark tunnel leading north.
+~
+~
+0 -1 7025
+D1
+There is a long east-west running tunnel.
+~
+~
+0 -1 7027
+D2
+You can feel a slight breeze to the south.
+~
+~
+0 -1 7001
+D3
+There is a long east-west running tunnel.
+~
+~
+0 -1 7008
+D4
+There is a manhole cover here.
+~
+cover manhole~
+1 -1 3001
+E
+sign~
+The sign reads: The sewers of Kortaal are off limits! Violators will be    
+                attacked, by order of Emperor Naga.
+                <Also, this is the newbie area!>
+~
+S
+#7001
+The muddy sewer~
+You are standing a muddy, slimey sewer. This is not the kind of place
+for a picnic.  The muddy sewer stretches further into the south, west, and
+north.
+~
+70 ad 0 0 0 1
+D0
+You can smell fresh air.
+~
+~
+0 -1 7000
+D2
+You see the muddy sewer continuing into the darkness to the south.
+~
+~
+0 -1 7002
+D3
+You see a small offshoot.
+~
+~
+0 -1 7007
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7002
+A smelly T-intersection~
+The muddy sewer stretches into the dark to the south.  It looks as if 
+no person has ever sat his foot here before.  It's too muddy for that
+anyway.  The sewer leads north, south and east from here.
+~
+70 ad 0 0 0 1
+D0
+The muddy sewer stretches into the dark to the north.
+~
+~
+0 -1 7001
+D1
+East.  The muddy sewer leads into a bend that goes south.
+~
+~
+0 -1 7004
+D2
+To the south the sewer contines.
+~
+~
+0 -1 7003
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7003
+A slick tunnel~
+The tunnel runs north-south here, and is nearly totally green with
+the growth of mold and slime. 
+~
+70 ad 0 0 0 5
+D0
+North.  The muddy junction lies in that direction.
+~
+~
+0 -1 7002
+D2
+The tunnel continues south.
+~
+~
+0 -1 7011
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7004
+Older passage~
+You stand in an older part of the sewers, the walls are very rough cut
+stone here. This part of the sewer looks very disused.
+~
+70 ad 0 0 0 1
+D1
+East.  The sewer dranches south.
+~
+~
+0 -1 7005
+D3
+A north-south tunnel.
+~
+~
+0 -1 7002
+S
+#7005
+Rocky bend~
+A small, rocky tunnel runs south here. The dust and slime is thicker
+here. You wonder when the last time something living was here...
+~
+70 ad 0 0 0 1
+D2
+South. The rock tunnel runs south.
+~
+~
+0 -1 7006
+D3
+West.  The start of the old rock tunnels.
+~
+~
+0 -1 7004
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7006
+An old door~
+On the east wall of the rough tunnel you see an old looking door. It is
+closed, and there is a small sign on the doorknob.
+~
+70 ad 0 0 0 5
+D0
+The pipe leads into a bend that goes south.  Interesting, there's mud on the
+floor there.
+~
+~
+0 -1 7005
+D2
+The old tunnels continue south.
+~
+~
+0 -1 7009
+D3
+A close door.
+~
+door~
+2 -1 7012
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+E
+sign~
+The sign reads: 
+    Enterance is prohibited. Closed by order of King Chelnar the IV.
+~
+S
+#7007
+A small offshoot~
+This isn't your idea of a place to stay too long.  You're in up to your
+knees in something that resembles mud, but you're not quite sure.  The
+bend in which you stand leads east and north.
+~
+70 ad 0 0 0 5
+D0
+You see more wet, slimey tunnels.
+~
+~
+0 -1 7008
+D1
+The pipe leads into a intersection that goes south and north.  The floor here 
+is still covered in mud.
+~
+~
+0 -1 7001
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7008
+A muddy intersection~
+You have both your feet safely stuck in mud.  It isn't the mud that's wrong
+it's the smell, the sounds, the total darkness that surrounds you.  Everything
+here is so depressing.  The pipe leads on with a trail of thick mud to the
+west, east and south.
+~
+70 ad 0 0 0 4
+D1
+East.  The pipe goes into a bend with a load of mud all the way up the walls.
+You can smell fresh air.
+~
+~
+0 -1 7000
+D2
+South.  This way like a place for the annual mud festival, although the stench
+wouldn't allow any happiness at all.  The pipe leads into a bend that leads 
+north.
+~
+~
+0 -1 7007
+D3
+West.  There's less mud in that direction.  *smile*.  Your light doesn't 
+cover enough space for you to see much more than that it leads into some
+sort of junction.
+~
+~
+0 -1 7013
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7009
+Old tunnel~
+The rough tunnel turns west here and also runs north. You think you can
+make out a few faint footprints.
+~
+70 ad 0 0 0 3
+D0
+North. The tunnel continues.
+~
+~
+0 -1 7006
+D3
+A few yards ahead - away from this junction - there is a pit leading down,
+but the smell from there...>PHEWW<.
+~
+~
+0 -1 7010
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7010
+A bend in sewer pipe~
+You are in a bend in the sewer pipe.  A strong smell seeps in from the west.
+The sewer goes west and east.
+~
+70 ad 0 0 0 2
+D1
+East. You are staring into a rocky junction with exits to the north.
+~
+~
+0 -1 7009
+D3
+West.  The Pipe leads into utter darkness that way.
+~
+~
+0 -1 7011
+S
+#7011
+The muddy sewer pipe~
+You have entered a kind of tube intersection that leads north, west and east.
+Your legs are covered in mud up to the knees.  REAL yucky!  
+~
+70 ad 0 0 0 5
+D0
+That way is lost in darkness, though you sense less mud in that direction,
+perhaps even a complete end to this sludge that surrounds you.
+~
+~
+0 -1 7003
+D1
+East.  There's less mud in that direction, or that's your impression.
+~
+~
+0 -1 7010
+D3
+West.  The mud reaches that way too, all the way up the walls.
+~
+~
+0 -1 7045
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7012
+Old room, with a rocky staircase~
+Standing in an old, stone, room you can see thick dust and cobwebs.
+There is a staircase carved out of rough stone leading down into the
+darkness.
+~
+70 ad 0 0 0 5
+D1
+Ease. You can see a north-south tunnel.
+~
+door~
+2 -1 7006
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7013
+A dank T-intersection~
+You are in a dark and slimy t-intersection. To the north you think you can
+hear something. Far to the east the tunnel extends past the line of sight.
+~
+70 ad 0 0 0 5
+D0
+North.  Sludge and sediment fills this corridor of the sewer that leads
+into a bend going west.
+~
+~
+0 -1 7019
+D1
+East. More slime and sewers. 
+~
+~
+0 -1 7008
+D3
+West.  All you can see is more mud!  Although the pipe goes into a bend
+leading south.
+~
+~
+0 -1 7014
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+E
+sediment~
+It's NOT the kind of matter that would concern you too much, normally, but
+as you are in the middle of it, it just might become your main concern.
+REAL YUCKY!
+~
+S
+#7014
+Muddy sewer~
+You stand in a bend of the pipe system of the sewer with mud up to your
+thighs.  Contemplating a higher level of existence here would be utterly
+inappropriate, as the smell would keep any intelligent creature from even
+thinking of anything but getting away from this foul end of the WORLD.
+The bend goes south.
+~
+70 ad 0 0 0 5
+D1
+East. Filled with mud, that place looks like an impassable intersection
+with pipes leading north and east.
+~
+~
+0 -1 7013
+D2
+South.  There's less mud that way, maybe you're on your way out of this foul
+place.
+~
+~
+0 -1 7015
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7015
+The old well~
+You are standing by an old and worn well from before this century.  The sewer
+leads to the north from here and to the south into darkness.  Metal
+bars implanted in the side of the well lead down as a ladder, until the meet
+with a metal plate.
+~
+70 acd 0 0 0 3
+D0
+North.  You see, because of the utter darkness that surround you, absolutely
+nothing.  Your light isn't of much use for that kind of distance.
+~
+~
+0 -1 7014
+D2
+To the south it is dark, but warmer. You think you can hear squeeking.
+~
+~
+0 -1 7016
+E
+plate metal~
+A large metal plate has been installed to seal the well, you'd rather
+not guess at why it was sealed.
+~
+S
+#7016
+The ordinary bend~
+You are in the middle of a bend in the pipe system of the sewer system, 
+WHAT a place!!!  The pipe leads to the south and the north.
+~
+70 ad 0 0 0 1
+D0
+North.  What a quiet place you've found there.  It's an intersection that has
+pipeways going north.
+~
+~
+0 -1 7015
+D2
+South.  You see nothing at all in that direction it's too dark anyway.
+~
+~
+0 -1 7017
+S
+#7017
+Rat Lair~
+You are in a large rat nest. You can see many, many rats of all sized running
+around here. Some are the size of large dogs!
+~
+70 ad 0 0 0 1
+D0
+North.  You see a bend.
+~
+~
+0 -1 7016
+D1
+East.  There's a dead end.
+~
+~
+0 -1 7018
+S
+#7018
+More Rat Lair~
+This room is an even bigger mess of scattered junk, straw and cloth
+than the previous. Most of the rats here are larger than most dogs
+you've seen!
+~
+70 ad 0 0 0 1
+D3
+There's a bend to the west leading north.
+~
+~
+0 -1 7017
+S
+#7019
+A cleaner room~
+This room looks out of place from the rest of the sewer, it is alot cleaner 
+and has some broken furniture.
+~
+70 ad 0 0 0 2
+D0
+You can see more clean tunnels.
+~
+~
+0 -1 7020
+D2
+Back to the dirty sewers.
+~
+~
+0 -1 7013
+E
+furniture~
+You can see chairs and tables in various states of destruction.
+~
+S
+#7020
+A clean room~
+This room is quite clean, and even has a few worn tapestries hanging
+on the east wall. You can see a little light to the north, and an offshoot
+to the west.
+~
+70 ad 0 0 0 2
+D0
+You can see some light.
+~
+~
+0 -1 7022
+D2
+You see a clean room.
+~
+~
+0 -1 7019
+D3
+You can see a broken bed.
+~
+~
+0 -1 7021
+E
+tapestries tapestry~
+They depict the comming of Dhalmass, the Warrior King, and other of the
+great Elder kings from the past of the Kingdom of Toran.
+~
+S
+#7021
+A small bedroom~
+There is a small, broken bed thrown in one corner. There is also some
+various broken furniture here.
+~
+70 ad 0 0 0 1
+D1
+There's an ordinary junction in the pipe system to the east
+~
+~
+0 -1 7020
+E
+bed broken~
+The bed is decrepid and broken down. It doesn't look to enviting.
+~
+S
+#7022
+A small guard room~
+Here you can see equipment and furniture for the small contingent of
+Purple Dragons that patrol the sewers.
+~
+70 ad 0 0 0 5
+D0
+You can see a small practice room.
+~
+~
+0 -1 7024
+D1
+You can see a small sleeping room.
+~
+~
+0 -1 7023
+D2
+You see a clean room.
+~
+~
+0 -1 7020
+S
+#7023
+A small bedroom~
+Here you see a small bedchamber. For the guards to rest before or after a
+patrol.
+~
+70 ad 0 0 0 5
+D3
+You see a clean stone room.
+~
+~
+0 -1 7022
+S
+#7024
+The sewer~
+You are standing in a tiny practice room. There are several practice
+dummies here.
+~
+70 ad 0 0 0 1
+D2
+To the south there's another intersection with pipes going south and east.
+~
+~
+0 -1 7022
+S
+#7025
+Another intersection~
+You have never seen anything so BORING...This is an intersection with pipes
+leading south and east.
+~
+70 ad 0 0 0 1
+D1
+East.  You see nothing of interest in that direction, just another 
+intersection.  This one leads east and south.
+~
+~
+0 -1 7026
+D2
+Another intersection lies to the south.  Tunnels run in all directions.
+~
+~
+0 -1 7000
+S
+#7026
+A junction~
+This one seems interesting, a big difference from all the other junctions.
+It seems cleaner than the rest of them.
+The pipes lead to the south and west.
+~
+70 ad 0 0 0 0
+D2
+To the south there's ANOTHER junction leading west and east.
+~
+~
+0 -1 7027
+D3
+To the west you see a load of mud and sediment in the sewer.  That should
+be an intersection there but you're not quite sure.
+~
+~
+0 -1 7025
+E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+S
+#7027
+The sewer junction~
+You stand in a junction of sewer pipes leading north, east and west.
+~
+70 ad 0 0 0 1
+D0
+To the north a pipe runs off to the west.
+~
+~
+0 -1 7026
+D1
+To the east you can see the pipe continuing.
+~
+~
+0 -1 7028
+D3
+To the west you can see many tunnels.
+~
+~
+0 -1 7000
+S
+#7028
+A long passage~
+You stand in a long, dark passage which reeks of something you'd rather
+not think about. It runs east-west.
+~
+70 ad 0 0 0 1
+D1
+You can see the pipe branch north.
+~
+~
+0 -1 7029
+D3
+The passage runs far to the west...
+~
+~
+0 -1 7027
+S
+#7029
+The Triple Junction~
+You stand in a large sewer pipe. It runs west and north here.
+~
+70 ad 0 0 0 1
+D0
+To the north you can see a cave-like alcove.
+~
+~
+0 -1 7030
+D3
+To the west you can just make out another junction similar to the one 
+you are standing in.
+~
+~
+0 -1 7028
+S
+#7030
+A rocky alcove~
+You are standing in an old, sealed section of the sewers. The sewer ends
+abruptly and rocky cavern walls start.
+~
+70 acd 0 0 0 1
+D0
+To the north you see a rock wall.
+~
+secret north n~
+4 7001 7031
+D2
+To the south there's a huge junction with pipes leading east and west.
+~
+~
+0 -1 7029
+S
+#7031
+Old Cave~
+You stand in an old cave which looks unused. There are thick dust and
+cobwebs. You notice faint tracks in the dust...they look like they
+could belong to a patrol...or somemthing worse.
+~
+70 ad 0 0 0 1
+D0
+More of the old caves.
+~
+~
+0 -1 7033
+D2
+You see a rock wall.
+~
+secret south s~
+3 7001 7030
+D3
+You see a dead end cave.
+~
+~
+0 -1 7032
+S
+#7032
+A dead end~
+You stand in a dead end of a cave. It looks as if some creature has made it's
+home here.
+~
+70 ad 0 0 0 1
+D1
+You see a cave.
+~
+~
+0 -1 7031
+S
+#7033
+A branch tunnel~
+The old caves run south and west from here. The acoustics of the room amplify
+strange sounds from the caves, but you cannot determine where they originate.
+~
+70 ad 0 0 0 1
+D2
+You see a cave.
+~
+~
+0 -1 7031
+D3
+You can see a lair.
+~
+~
+0 -1 7034
+S
+#7034
+The Lair of the Goblin~
+You have stumbled upon the hidden lair of a few goblins living under the 
+city of Kortaal.
+~
+70 ad 0 0 0 2
+D0
+To the north you see more cave.
+~
+~
+0 -1 7035
+D1
+To the east you see a tunnel that turns south.
+~
+~
+0 -1 7033
+S
+#7035
+A cave~
+You stand in what appears to be an extention of the goblin lair to
+the south. 
+~
+70 ad 0 0 0 2
+D0
+You see an east-west running passage.
+~
+~
+0 -1 7036
+D2
+You see the lair of a few disgusting goblins.
+~
+~
+0 -1 7034
+S
+#7036
+A junction running east-west~
+You stand in a natural section of east-west running tunnel. Also, there
+is a passage leading south.
+~
+70 ad 0 0 0 5
+D1
+A dead end.
+~
+~
+0 -1 7037
+D2
+Back towards a goblin lair.
+~
+~
+0 -1 7035
+D3
+To the west you see more tunnels.
+~
+~
+0 -1 1600
+S
+#7037
+Another dead end~
+This looks like a possible storage area for the goblins that live to the
+south.
+~
+70 ad 0 0 0 1
+D3
+You can see a natural junction.
+~
+~
+0 -1 7036
+S
+#7045
+The Sewer Room~
+You are standing in a large room with chairs set in the walls.  You have the
+feeling of being watched. The room is lit by five torches, also set into the
+walls. To the east there is a doorway leading out to the sewers. There is
+a manhole cover here.  
+~
+70 d 0 0 0 1
+D1
+You can see the sewers.
+~
+~
+0 -1 7011
+D4
+You can see the Dump of Kortaal.
+~
+manhole~
+2 -1 3030
+S
+$~

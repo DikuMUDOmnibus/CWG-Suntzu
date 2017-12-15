@@ -1,0 +1,16 @@
+#9000
+paladin~
+the Paladin of Ao~
+Dressed in highly polished armor, a Paladin stands watch.
+~
+The armor is well polished, and the Paladin of Ao is keeping watch over
+the church she is sworn to protect. If she proves worth enough she may
+become one of the Warhost of Ao.
+~
+adeilnoq 0 0 0 eov 0 0 0 1000 E
+18 20 7 18d10+90 1d4+0
+300 36000 0 3
+8 8 2
+Str: 18
+E
+$

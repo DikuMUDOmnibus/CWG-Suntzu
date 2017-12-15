@@ -1,0 +1,25 @@
+#3200
+gold dragon~
+a @Ygold dragon@n~
+A @Ygolden dragon@n is here looking you over.
+~
+The @Ygolden dragon@n is very large, and very @Ygold@n!
+~
+deilnopq 0 0 0 elqx 0 0 0 1000 E
+25 20 -4 10d6+500 3d8+0
+0 180000 11 3
+9 9 1
+E
+#3201
+red dragon~
+a @rred dragon@n~
+A @rred dragon@n is here looking you over.
+~
+The @rred dragon@n is very large, and very @rred@n!
+~
+degjlnopq 0 0 0 elqx 0 0 0 -1000 E
+25 20 -4 10d6+500 3d8+0
+0 180000 11 3
+9 9 1
+E
+$

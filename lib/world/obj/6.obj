@@ -1,0 +1,43 @@
+#600
+statue~
+a large statue~
+A golden statue of a vulture-man stands here.~
+~
+8 de 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 100 100 0 4
+200 5000 500 0
+E
+statue~
+A large statue of a vulture-headed man covered with gold leaf.
+It looks very heavy.
+~
+#601
+spear ivory~
+an ivory spear~
+A beautiful spear, carved of pure ivory has been set here.~
+~
+5 gjmno 0 0 0 an 0 0 0 0 0 0 0
+177 1 6 11 100 100 0 26
+5 100 100 0
+E
+spear ivory~
+Carved of snow white ivory, the weapon is one of the most beautiful you have
+ever touched.
+~
+#602
+portal~
+a @Yglowing portal@n~
+A @Yglowing portal@n hovers here forming a gateway to another place.~
+~
+28 b 0 0 0 0 0 0 0 0 0 0 0
+2933 0 -1 -1 100 100 0 36
+0 0 0 0
+#603
+coffin~
+a golden coffin~
+The coffin of Lazuras is here.~
+~
+15 0 0 0 0 0 0 0 0 0 0 0 0
+500 5 -1 0 100 100 0 35
+1000 5000 0 0
+$~

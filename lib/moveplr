@@ -1,0 +1,54 @@
+#!/bin/sh
+
+# There is probably a simpler way of doing this, but I don't have the
+# time to figure it out. Plus, this script should only be ran once and
+# then deleted, so who cares if it is a little messy.
+
+echo "Moving Player Index"
+mv pfiles/plr_index plrfiles/index
+
+echo "Moving players A-E"
+for d in a b c d e; do
+  for i in $( ls pfiles/$d ); do
+    if [ $i != "00" ]; then
+        mv pfiles/$d/$i plrfiles/A-E/$i.plr
+    fi
+  done
+done
+
+echo "Moving players F-J"
+for d in f g h i j; do
+  for i in $( ls pfiles/$d ); do
+    if [ $i != "00" ]; then
+        mv pfiles/$d/$i plrfiles/F-J/$i.plr
+    fi
+  done
+done
+
+echo "Moving players K-O"
+for d in k l m n o; do
+  for i in $( ls pfiles/$d ); do
+    if [ $i != "00" ]; then
+        mv pfiles/$d/$i plrfiles/K-O/$i.plr
+    fi
+  done
+done
+
+echo "Moving players P-T"
+for d in  p q r s t; do
+  for i in $( ls pfiles/$d ); do
+    if [ $i != "00" ]; then
+        mv pfiles/$d/$i plrfiles/P-T/$i.plr
+    fi
+  done
+done
+
+echo "Moving players U-Z"
+for d in u v w x y z; do
+  for i in $( ls pfiles/$d ); do
+    if [ $i != "00" ]; then
+        mv pfiles/$d/$i plrfiles/U-Z/$i.plr
+    fi
+  done
+done
+
